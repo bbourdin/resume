@@ -1,0 +1,53 @@
+FROM rocker/r-rmd
+
+RUN apt-get update -y --allow-releaseinfo-change
+
+# R ggplot2 dependencies	
+RUN apt-get install -y \
+	r-cran-ggplot2 \
+	r-cran-png \
+	# for installing the VisualResume package
+	r-cran-devtools \
+	#   requirements for VisualResume package:
+	# sysfonts, shape, GlobalOptions, deSolve, contfrac, elliptic,
+	# RcppEigen, hypergeo, MatrixModels, gtools, mvtnorm, 
+	# pbapply, coda, showtextdb, circlize, BayesFactor, jpeg, showtext, yarrr
+	r-cran-shape \
+	r-cran-globaloptions \
+	r-cran-desolve \
+	r-cran-contfrac \
+	r-cran-elliptic \
+	r-cran-rcppeigen \
+	r-cran-hypergeo \
+	r-cran-matrixmodels \
+	r-cran-gtools \
+	r-cran-mvtnorm \
+	r-cran-pbapply \
+	r-cran-coda \
+	r-cran-circlize \
+	r-cran-bayesfactor \
+	# other packages needed: sysfonts, colorspace, stringi, magrittr, glue, Rcpp, MatrixModels, showtextdb, jpeg, showtext, yarrr, desolve, pbapply
+	r-cran-colorspace \
+	r-cran-stringi \
+	r-cran-magrittr \
+	r-cran-glue \
+	r-cran-rcpp \
+	r-cran-rcppeigen \
+	# to compile the VisualResume package below
+	libfreetype6-dev \
+	# and needing the wordcloud package
+	r-cran-wordcloud \
+	# pdflatex for exporting to pdf
+	texlive-latex-base \
+	# to solve "Error: object ‘faststack’ is not exported by 'namespace:fastmap'"
+	r-cran-fastmap
+
+# alternative is to install manually - super long as it will compile
+# RUN R -e "install.packages('png')"
+
+# installing VisualResume from the source - no cran package
+#  the following remaining dependencies will be installed: sysfonts, MatrixModels, showtextdb, jpeg, showtext, yarrr
+#  as it is linux, will be compiled but will take about 30s
+RUN R -e "devtools::install_github(\"ndphillips/VisualResume\")"
+
+CMD ["bash"]

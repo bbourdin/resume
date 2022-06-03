@@ -1,0 +1,109 @@
+# Spelling Exceptions
+# Format - lines beginning # are comments
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this config file
+
+
+
+# Technologies
+Middleware
+middleware
+midrange
+APIs
+JavaEE
+Jython
+Perl
+Freemium
+enablement
+roadmap
+roadmaps
+Roadmapping
+Architecting
+Pre-sales
+pre-sales
+DB
+
+# Process names
+Dev
+Ops
+DevOps
+DevSecOps
+ScaledAgile
+Kanban
+Kata
+Scrum
+GitOps
+
+# Tools names
+Powerpoint
+Websphere
+LinkedIn
+DevCloud
+Jira
+Artifactory
+Confluence
+GitHub
+Ansible
+Bitbucket
+Weblogic
+JBoss
+Ansible
+Nagios
+Solaris
+Filenet
+Suse
+BigPicture
+MySQL
+Marp
+marp
+Ubuntu
+VisualResume
+Pandoc
+marpteam
+marp-cli
+Jinja2
+vikingco
+jinja2cli
+mdspell
+yaml
+yamllint
+markdownlint
+Grafana
+Node.JS
+
+# Companies and products
+Axians
+Neurocom
+Linkbynet
+OUnet
+Sistemi
+Novell
+Guidewire
+Bionix
+
+# File names
+Jenkinsfile
+Dockerfile
+rmd.j2
+md.j2
+yml
+r-rmd
+
+# Other general
+Benoit
+Bourdin
+Kolumbus
+Orsay
+Senlis
+Baccalaureat
+Webservices
+Pecq
+informatique
+Cantabrian
+onboarding
+onboarded
+5.5M
+V8.5
+12c
+100-word
+

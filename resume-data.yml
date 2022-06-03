@@ -1,0 +1,27 @@
+---
+
+template: public
+
+email_addr: benoit.bourdin@gmail.com
+
+contact_info: "[GitHub](https://github.com/bbourdin) / "
+
+this_repo:
+  url: https://github.com/bbourdin/resume/
+  pages_url: https://github.com/bbourdin/resume/blob/gh-pages/
+
+dxc_exp1:
+  customer_shortname: Automotive
+  customer_longname: Large automotive customer
+
+dxc_exp2:
+  customer_shortname: Insurance
+  customer_longname: Large insurance customer
+
+dxc_exp3:
+  customer_shortname: Manufacturing
+  customer_longname: Large manufacturing customer
+
+dxc_exp4:
+  customer_shortname: Media & Entertainment
+  customer_longname: Entertainment industry customer
