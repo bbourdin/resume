@@ -45,7 +45,7 @@ jobs:
       - name: upload generated markdown as artifact
         uses: actions/upload-artifact@v2
         with:
-          name: resume-markdown
+          name: resume-rmarkdown
           path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
 
   lint-markdown:
@@ -54,7 +54,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@v2
         with:
-          name: resume-markdown
+          name: resume-rmarkdown
       - name: List generated files
         run: |
           ls -l Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
