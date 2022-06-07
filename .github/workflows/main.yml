@@ -79,13 +79,11 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: Benoit-Bourdin-resume-rmarkdown
-      - name: Install Node.js 12
-        uses: actions/setup-node@v3
-        with:
-          node-version: 12.x
-      - name: Install markdown-spellcheck
-        run: npm install -g markdown-spellcheck
-      - name: Run mdspell
-        run: |
-          find . -name "*.md" -o -name "*.rmd" \
-           | xargs mdspell -n -a -r --en-us --dictionary dictionary/en_US-large
+    container:
+      runs-on: ubuntu-latest
+      container: ghcr.io/bbourdin/resume-spell:latest
+      steps:
+        - name: Run mdspell
+          run: |
+            find . -name "*.md" -o -name "*.rmd" \
+            | xargs mdspell -n -a -r --en-us --dictionary dictionary/en_US-large
