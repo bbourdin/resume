@@ -7,20 +7,21 @@ on:   # yamllint disable-line rule:truthy
   # Triggers on push or pull request events but only for the main branch
   push:
     branches: ['**']
+    paths:
+      - '**'
+      - '!Dockerfile.spell'
+      - '!.github/workflows/docker-spell.yml'
   pull_request:
     branches: [main]
+    paths:
+      - '**'
+      - '!Dockerfile.spell'
+      - '!.github/workflows/docker-spell.yml'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  lint-yaml:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Lint - yaml files
-        uses: ibiqlik/action-yamllint@v3
-
   build-placeholder:
     runs-on: ubuntu-latest
     steps:
