@@ -70,7 +70,7 @@ jobs:
         run: |
           ls -l Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
           echo ${GITHUB_REF_NAME}
-          echo ${{env.SPELL_IMAGE_NAME}}
+          echo ${SPELL_IMAGE_NAME}
           echo end
       - name: Lint - markdown files
         uses: actionshub/markdownlint@main
