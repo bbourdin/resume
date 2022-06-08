@@ -157,8 +157,8 @@ jobs:
         run: |
           ls -latr
           mv -f output/Benoit-Bourdin-slide.png .
-          R -e \'rmarkdown::render("Benoit-Bourdin-resume.rmd", \
-            output_format="all")\'
+          R -e 'rmarkdown::render("Benoit-Bourdin-resume.rmd", \
+            output_format="all")'
           ls -latr
           rm -rf output
           mkdir -p output/
