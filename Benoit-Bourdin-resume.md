@@ -1,7 +1,7 @@
 **This resume is leveraging DevOps**: *Automatically built from [source
 code by a CI/CD pipeline](https://github.com/bbourdin/resume/)), and can
 be downloaded as
-[HTML](https://github.com/bbourdin/resume/blob/gh-pages/),
+[HTML](https://github.com/bbourdin/resume/blob/gh-pages//index.html),
 [PDF](Benoit-Bourdin-resume.pdf),
 [Markdown](https://github.com/bbourdin/resume//blob/gh-pages/Benoit-Bourdin-resume.md)
 or [Word](Benoit-Bourdin-resume.docx). One-slide view formats:
@@ -313,8 +313,8 @@ Prior to the merge of CSC to DXC Technology:
         optimization.
     -   Building standards and solutions for WAS, JBoss, Tomcat,
         Weblogic
--   *Renault/Nissan/RCI* (2008-2010) - **JavaEE and Websphere expert,
-    midrange administrator**
+-   *Large automotive customer* (2008-2010) - **JavaEE and Websphere
+    expert, midrange administrator**
     -   IBM Websphere application server (WAS3,4,5,6,7 and WAS CE1,2) +
         apache full installation and administration. Third level support
         : analyzing, optimization and fine troubleshooting.
