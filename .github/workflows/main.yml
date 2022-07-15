@@ -26,7 +26,7 @@ on:   # yamllint disable-line rule:truthy
   workflow_dispatch:
 
 env:
-  SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell:${GITHUB_REF_NAME}
+  SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell
   RMARKDOWN_IMAGE_NAME: ghcr.io/bbourdin/resume-rmarkdown
 
 jobs:
@@ -79,8 +79,13 @@ jobs:
     outputs:
       var: ${{ steps.save_var.outputs.var }}
     steps:
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.SPELL_IMAGE_NAME }}
       - id: save_var
-        run: echo "::set-output name=var::${{ env.SPELL_IMAGE_NAME }}"
+        run: echo "::set-output name=var::${{ steps.meta.outputs.tags }}"
 
   markdown-spell-check:
     runs-on: ubuntu-latest
@@ -139,7 +144,7 @@ jobs:
         with:
           images: ${{ env.RMARKDOWN_IMAGE_NAME }}
       - id: save_var
-        run: echo "::set-output name=var::${{ env.RMARKDOWN_IMAGE_NAME }}:${{ steps.meta.outputs.tags }}"
+        run: echo "::set-output name=var::${{ steps.meta.outputs.tags }}"
 
   rmarkdown-build:
     runs-on: ubuntu-latest
