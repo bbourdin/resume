@@ -4,7 +4,7 @@
 name: Build the mdspell docker image
 
 on:   # yamllint disable-line rule:truthy
-  # Triggers on push or pull request events but only for the main branch
+  # Triggers on pushes to the dockerfile or pull request events
   push:
     branches: ['**']
     paths:
@@ -12,9 +12,6 @@ on:   # yamllint disable-line rule:truthy
       - '.github/workflows/docker-spell.yml'
   pull_request:
     branches: [main]
-    paths:
-      - 'Dockerfile.spell'
-      - '.github/workflows/docker-spell.yml'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
