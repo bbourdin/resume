@@ -1,7 +1,6 @@
 **This resume is leveraging DevOps**: *Automatically built from [source
 code by a CI/CD pipeline](https://github.com/bbourdin/resume/)), and can
-be downloaded as
-[HTML](https://github.com/bbourdin/resume/blob/gh-pages//index.html),
+be downloaded as [HTML](https://bbourdin.github.io/resume//index.html),
 [PDF](Benoit-Bourdin-resume.pdf),
 [Markdown](https://github.com/bbourdin/resume//blob/gh-pages/Benoit-Bourdin-resume.md)
 or [Word](Benoit-Bourdin-resume.docx). One-slide view formats:
