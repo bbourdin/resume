@@ -55,8 +55,8 @@ Profile
 Benoit is leading the DevOps and Agile transformation of several DXC
 teams, organizations and customers, by coaching on the Agile/Lean/DevOps
 culture, practices and the tools. He is also contributing as product
-owner for a platform to 28,000 active users, in several communities of
-practice and for pre-sales.
+owner of the DXC central DevOps/Agile platform to 28,000 active users,
+in several communities of practice and for pre-sales.
 
 Previously, Benoit has also worked as middleware & automation SME in
 DXC, leading projects for large customers, global standards for all
@@ -129,7 +129,7 @@ Skills
 -   DevOps culture, practices and tools (4 years)
 -   Agile culture, methods and tools (4 years)
 -   Lean method, Value Stream Management (2 years)
--   Product management and development (2 years)
+-   Product management, engineering and development (2 years)
 -   Middleware: web servers, application servers (11 years)
 -   ITSM practice (10 years)
 -   Unix/Linux (10+ years), Software development (Java, C, Shell… - 2
@@ -147,32 +147,38 @@ Experience detailed
     -   Leading the DevOps/Lean/Agile enablement team (team of coaches)
         for this account. Weekly consulting on agility, scaling agile
         and team topologies, Kanban for flow management, training, agile
-        tooling, value stream mapping, measurement of business outcomes.
-        Led two Value Stream Mapping (VSM) workshops, clarified team
+        tooling (Azure DevOps, Jira, Jira Cloud, Planner), value stream
+        mapping, measurement of leading (flow metrics) and lagging
+        indicators (business outcomes).
+    -   Led two Value Stream Mapping (VSM) workshops, clarified team
         APIs, implementation of a continuous improvement framework with
         the leaders, leveraging transformation patterns for small and
-        specific improvements using a Kata template. Identification of
-        the transformation expected outcomes in partnership with the
-        customer, and implementation of the measurements.
+        specific improvements using a Kata template.
+    -   Identification of the transformation expected outcomes in
+        partnership with the customer, and implementation of the
+        measurements.
 -   *[DXC
     DevCloud](https://github.dxc.com/pages/Platform-DXC/devcloud-docs/)*
     (from 2021) - **Product owner of the Agile/DevOps central platform**
     -   Product owner of the Agile/DevOps central platform, to 28,000
         (active) users. Consisted of tools (hosted on AWS) for agile
         (Jira), source code (GitHub), CI/CD (Jenkins), artifacts
-        (Artifactory), documentation management (Confluence), managed by
-        a team of 15 people plus a bot and 38 CI/CD pipelines we develop
-        and maintain.
+        (Artifactory), documentation management (Confluence)
+    -   Managing a team of 3 proxy product owners, 15 DevOps engineers
+        plus a bot and 38 CI/CD pipelines we develop and maintain.
     -   Outcomes and value-driven, created and managing a backlog of
         features, defects, risks and technical debt. Balancing
         priorities, distribution and knowledge gaps. Continuous
         management of risks and technical debt thanks to an
         impact/probability matrix. Measuring/reviewing the customer
-        experience and the flows/increments of development/operations on
-        an automated dashboard after every sprint of 2 weeks (using
-        Power BI, R, Grafana, AWS and Confluence).
+        experience (UX/DX) and the flows/increments of
+        development/operations (flow metrics) on an automated dashboard
+        after every sprint of 2 weeks (using Power BI, R, Grafana, AWS
+        and Confluence).
     -   Created a vision of Freemium model to regulate the cost and
         demand. Leading the internal marketing.
+    -   Leveraging our existing communities of practices to empathize
+        with our customers and the business context.
 -   *Entertainment industry customer* (from 2020) - **Scaled Agile coach
     and agile platform lead**
     -   Coaching the customer for improved workflows, SAFe
@@ -186,15 +192,22 @@ Experience detailed
     -   Pre-sales of coaching services, delivery of coaching services
         (also called advisory or enablement services). Value Stream
         Mapping workshops for several customers.
+    -   Agile and DevOps coaching for other customers and internal
+        organization, for their specific question or use case,
+        leveraging many other different patterns, practices and tools.
     -   Co-leader of the main DevOps/Lean/Agile and of the team
         topologies community of practice in DXC. Contributor to all the
         other DevOps/Lean/Agile communities of practice (presentations,
         consulting, creation of re-usable assets…) including Agile
         contracting, Value Stream Mapping,
         <a href="mailto:Agile@scale" class="email">Agile@scale</a>, SRE…
+        Speaker on different topics like asynchronous communication,
+        agile metrics, GitOps, DataOps.
     -   Speaker and part of the staff (scrum master) of the DXC Agile
         Marathon every year, which is a global event of 24 hours with
-        presentations from all our best agile champions.
+        presentations from all our best agile champions. Driving the
+        staff to be an high performance agile team using innovation,
+        Scrum (ex: sprints of 2 days), Azure DevOps.
 -   *[Enterprise DevOps/Agile
     enablement](https://github.dxc.com/pages/bionix/storefront/products/DevOps/)
     team* (2019-2020) - **DevOps/Scaled Agile coach**
@@ -264,8 +277,9 @@ Experience detailed
     -   Optimization of the delivery operations for the middleware
         capability, in all the service management areas. Establishing
         standards and best practices globally for all the middleware
-        installations in DXC. Supporting the delivery team of all the
-        accounts worldwide for any technical concern.
+        installations in DXC. Supporting the development of automation
+        (python, shell) and the delivery team of all the accounts
+        worldwide for any technical concern.
     -   Leading the middleware automation (DevOps and Bionix)
         initiatives, supporting the digital transition by building new
         standards using new methods (Agile) and tools (Jenkins, GitHub,
