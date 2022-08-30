@@ -15,32 +15,10 @@ Profile
 
 [![](Benoit-Bourdin-slide.png)](Benoit-Bourdin-slide.html)
 
-<table>
-<colgroup>
-<col style="width: 53%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Total experience:</strong> 18 Years</th>
-<th><strong>Experience in DXC:</strong> 14 Years</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Current Job Title: Agile/DevOps transformation lead</strong></td>
-<td><strong>Time in Current Role:</strong> 3 years</td>
-</tr>
-<tr class="even">
-<td><strong>Visa/Work permit:</strong> N/A</td>
-<td><strong>Validity Date of Visa/Work Permit:</strong> N/A</td>
-</tr>
-<tr class="odd">
-<td><strong>Willing to relocate:</strong> No</td>
-<td><strong>Willing to travel:</strong> Yes</td>
-</tr>
-</tbody>
-</table>
+| **Total experience:** 18 Years | **Experience in DXC:** 14 Years            |
+|--------------------------------|--------------------------------------------|
+| **Visa/Work permit:** N/A      | **Validity Date of Visa/Work Permit:** N/A |
+| **Willing to relocate:** No    | **Willing to travel:** Yes (up to 10%)     |
 
 ### Contact
 
@@ -65,11 +43,11 @@ the automation initiatives. Before DXC, Benoit worked as system
 administrator, after several experiences in software development and
 network administration.
 
-Quotes
-------
+### Recent performance
 
-Here are some quotes from our customers or account executive during
-2022:
+![](Benoit-Bourdin-resume_files/figure-markdown_github/PerformanceRatings-1.png)
+
+**Quotes** from our customers or account executive during 2022:
 
 > “*Sharing thanks and appreciation for Benoit’s good work for \[this
 > customer\]. He is contributing and supporting in a great way for my
@@ -169,14 +147,16 @@ Experience detailed
     -   Outcomes and value-driven, created and managing a backlog of
         features, defects, risks and technical debt. Balancing
         priorities, distribution and knowledge gaps. Continuous
-        management of risks and technical debt thanks to an
+        roadmapping, management of risks and technical debt thanks to an
         impact/probability matrix. Measuring/reviewing the customer
         experience (UX/DX) and the flows/increments of
         development/operations (flow metrics) on an automated dashboard
         after every sprint of 2 weeks (using Power BI, R, Grafana, AWS
         and Confluence).
-    -   Created a vision of Freemium model to regulate the cost and
-        demand. Leading the internal marketing.
+    -   Definition of the vision and strategy, innovation using a
+        Freemium model to regulate the internal cost and demand. Leading
+        the internal marketing together with the team, using our
+        enterprise communication tools and enterprise communities.
     -   Leveraging our existing communities of practices to empathize
         with our customers and the business context.
 -   *Entertainment industry customer* (from 2020) - **Scaled Agile coach
