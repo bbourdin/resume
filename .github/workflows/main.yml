@@ -25,9 +25,6 @@ on:   # yamllint disable-line rule:truthy
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-env:
-  SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell:${GITHUB_REF_NAME}
-
 jobs:
   build-placeholder:
     runs-on: ubuntu-latest
@@ -70,7 +67,6 @@ jobs:
         run: |
           ls -l Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
           echo ${GITHUB_REF_NAME}
-          echo ${SPELL_IMAGE_NAME}
           echo end
       - name: Lint - markdown files
         uses: actionshub/markdownlint@main
@@ -78,10 +74,12 @@ jobs:
           path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md
 
   markdown-spell-check:
+    env:
+      SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell:${GITHUB_REF_NAME}
     runs-on: ubuntu-latest
     needs: build-placeholder
     container:
-      image: ${{ env.SPELL_IMAGE_NAME }}
+      image: "${{ env.SPELL_IMAGE_NAME }}"
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
