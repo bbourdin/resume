@@ -27,7 +27,7 @@ on:   # yamllint disable-line rule:truthy
 
 env:
   SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell:${GITHUB_REF_NAME}
-  RMARKDOWN_IMAGE_NAME: ghcr.io/bbourdin/resume-rmarkdown:${GITHUB_REF_NAME}
+  RMARKDOWN_IMAGE_NAME: ghcr.io/bbourdin/resume-rmarkdown
 
 jobs:
   build-placeholder:
@@ -133,8 +133,13 @@ jobs:
     outputs:
       var: ${{ steps.save_var.outputs.var }}
     steps:
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.RMARKDOWN_IMAGE_NAME }}
       - id: save_var
-        run: echo "::set-output name=var::${{ env.RMARKDOWN_IMAGE_NAME }}"
+        run: echo "::set-output name=var::${{ env.RMARKDOWN_IMAGE_NAME }}:${{ steps.meta.outputs.tags }}"
 
   rmarkdown-build:
     runs-on: ubuntu-latest
