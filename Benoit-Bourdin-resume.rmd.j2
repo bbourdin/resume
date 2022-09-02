@@ -28,10 +28,9 @@ One-slide view formats: [HTML](Benoit-Bourdin-slide.html), [Powerpoint](Benoit-B
 [![](Benoit-Bourdin-slide.png)](Benoit-Bourdin-slide.html)
 
 | **Total experience:** 18 Years                   | **Experience in DXC:** 14 Years     |
-| ------------------------------------------------ | ------------------------------------------ |
-| **Current Job Title: Agile/DevOps transformation lead** | **Time in Current Role:** 3 years  |
+|-------------------- | ---------------------------------------- |
 | **Visa/Work permit:** N/A                        | **Validity Date of Visa/Work Permit:** N/A |
-| **Willing to relocate:** No                      | **Willing to travel:** Yes                 |
+| **Willing to relocate:** No                      | **Willing to travel:** Yes (up to 10%)  |
 
 ### Contact
 
@@ -47,9 +46,36 @@ Benoit is leading the DevOps and Agile transformation of several DXC teams, orga
 
 Previously, Benoit has also worked as middleware & automation SME in DXC, leading projects for large customers, global standards for all customers, architectural roadmap of an automation platform and led all the automation initiatives. Before DXC, Benoit worked as system administrator, after several experiences in software development and network administration.
 
-## Quotes
+### Recent performance
 
-Here are some quotes from our customers or account executive during 2022:
+```{r PerformanceRatings, echo=FALSE, error=TRUE, warning=FALSE, message=TRUE, fig.width = 7, fig.height=2}
+library(ggplot2)
+data <- data.frame(
+  x=seq(from=2015, to=2022),
+  y=c(2,2,2,1,2,3,1,1)
+)
+yLabs <- c("Exceptional impact, exceeds all expectations", "Meets all and exceeds some expectations", "Meets most expectations", "Does not meet expectations")
+# using the same palette as VisualResume below = yarrr::piratepal("xmen")
+ggplot(data, aes(x=x, y=y)) +
+  geom_segment( aes(x=x, xend=x, y=4, yend=y), color="#9B9B9BFF", size=0.5, linetype = "dotted") +
+  geom_point(aes(color=y), size=4, show.legend = FALSE) +
+  scale_color_gradient(low="#026CCBFF", high="#9b9b9b7e") +
+  scale_x_continuous(breaks=seq(2015, 2022, 1)) +
+  scale_y_reverse( lim=c(4,1), labels=stringr::str_wrap(yLabs, width = 20)) +
+  theme_light() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid = element_blank(),
+    panel.border = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.text.y = element_text(size = 6),
+    axis.title.y = element_text(size = 8)
+  ) +
+  xlab("") +
+  ylab("Performance rating")
+```
+
+**Quotes** from our customers or account executive during 2022:
 
 > "_Sharing thanks and appreciation for Benoit’s good work for [this customer].  He is contributing and supporting in a great way for my team._"
 >
@@ -435,8 +461,8 @@ mycolors = brewer.pal(8, "Dark2")
 * _[DXC DevCloud](https://github.dxc.com/pages/Platform-DXC/devcloud-docs/)_ (from 2021) - **Product owner of the Agile/DevOps central platform**
   * Product owner of the Agile/DevOps central platform, to 28,000 (active) users. Consisted of tools (hosted on AWS) for agile (Jira), source code (GitHub), CI/CD (Jenkins), artifacts (Artifactory), documentation management (Confluence)
   * Managing a team of 3 proxy product owners, 15 DevOps engineers plus a bot and 38 CI/CD pipelines we develop and maintain.
-  * Outcomes and value-driven, created and managing a backlog of features, defects, risks and technical debt. Balancing priorities, distribution and knowledge gaps. Continuous management of risks and technical debt thanks to an impact/probability matrix. Measuring/reviewing the customer experience (UX/DX) and the flows/increments of development/operations on an automated dashboard after every sprint of 2 weeks (using Power BI, R, Grafana, AWS and Confluence).
-  * Created a vision of Freemium model to regulate the cost and demand. Leading the internal marketing.
+  * Outcomes and value-driven, created and managing a backlog of features, defects, risks and technical debt. Balancing priorities, distribution and knowledge gaps. Continuous roadmapping, management of risks and technical debt thanks to an impact/probability matrix. Measuring/reviewing the customer experience (UX/DX) and the flows/increments of development/operations (flow metrics) on an automated dashboard after every sprint of 2 weeks (using Power BI, R, Grafana, AWS and Confluence).
+  * Definition of the vision and strategy, innovation using a Freemium model to regulate the internal cost and demand. Leading the internal marketing together with the team, using our enterprise communication tools and enterprise communities.
   * Leveraging our existing communities of practices to empathize with our customers and the business context.
 
 * _{{dxc_exp4.customer_longname}}_ (from 2020) - **Scaled Agile coach and agile platform lead**
