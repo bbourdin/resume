@@ -12,7 +12,8 @@ output:
     toc_float:
       collapsed: true
       smooth_scroll: true
-  pdf_document: default
+  pdf_document: 
+    latex_engine: xelatex
   word_document: default
 ---
 
@@ -22,6 +23,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **This resume is leveraging DevOps**: _Automatically built from [source code by a CI/CD pipeline]({{this_repo.url}})), and can be downloaded as [HTML]({{this_repo.pages_url}}/index.html), [PDF](Benoit-Bourdin-resume.pdf),  [Markdown]({{this_repo.url}}/blob/gh-pages/Benoit-Bourdin-resume.md) or [Word](Benoit-Bourdin-resume.docx).
 One-slide view formats: [HTML](Benoit-Bourdin-slide.html), [Powerpoint](Benoit-Bourdin-slide.pptx), [PDF](Benoit-Bourdin-slide.pdf) or [PNG](Benoit-Bourdin-slide.png). To be notified on updates, go to [the repository]({{this_repo.url}}) and [click on Watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository)._
+
+Like it? [I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA)
 
 ## Profile
 
@@ -34,9 +37,9 @@ One-slide view formats: [HTML](Benoit-Bourdin-slide.html), [Powerpoint](Benoit-B
 
 ### Contact
 
-| Email ID   | Contact |
+| Asynchronous (recommended)  | Synchronous |
 | ---------------- | ---------------- |
-| {{email_addr}} | {{contact_info}} [LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) |
+| {{async_contact_info}} [LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) / {{email_addr}} | {{sync_contact_info}} |
 
 ---
 
@@ -116,7 +119,7 @@ try(
   timeline.labels = c("Experience"),
   timeline.cex = c(2.8, 1.8),
   events.cex = 3,
-  timeline = data.frame(title = c(" ", "Security developer", "Unix/Linux admin", "Linux engineer", "Midrange administrator", "Webservices Project lead", "Middleware/automation SME", "Global middleware SME", "Product owner, Agile/DevOps coach", "DevOps/Scaled Agile coach", "Agile/DevOps transformation lead", "Product owner"),
+  timeline = data.frame(title = c(" ", "Security developer", "Unix/Linux admin", "Linux engineer", "Midrange administrator", "Webservices Project lead", "Middleware/automation SME", "Global middleware SME<br/>Scrum master", "Product owner, Agile/DevOps coach", "DevOps/Scaled Agile coach", "Agile/DevOps transformation lead", "Product owner"),
                         sub = c(" ", "Axians Neurocom", "Linkbynet", "Ounet Sistemi", "CSC ({{dxc_exp1.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "DXC (ITO Global capabilities)", "DXC (OE&E Platform DXC Middleware)", "DXC (Enterprise DevOps-Agile enablement)", "DXC ({{dxc_exp3.customer_shortname}}, {{dxc_exp4.customer_shortname}})", "DXC DevCloud platform"),
                         start = c(2002, 2004, 2005, 2006, 2008, 2010, 2012, 2017, 2018.7, 2019.7, 2020.5, 2021.4),
                         end = c(2004, 2005, 2006, 2008, 2010, 2012, 2017, 2018.7, 2019.7, 2020.5, 2022.6, 2022.6),
