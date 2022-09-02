@@ -22,6 +22,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - uses: actions/checkout@v2
     - name: Replace data (default) - resume
       uses: cuchi/jinja2-action@v1.2.0
       with:
