@@ -15,26 +15,50 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # currently only the placeholder job
-  placeholder:
-    # The type of runner that the job will run on
+  lint-yaml:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v2
-    - name: Replace data (default) - resume
-      uses: cuchi/jinja2-action@v1.2.0
-      with:
-        template: Benoit-Bourdin-resume.rmd.j2
-        output_file: Benoit-Bourdin-resume.rmd
-        data_file: resume-data.yml
-        data_format: yaml
-    
-    - name: Replace data (default) - slide
-      uses: cuchi/jinja2-action@v1.2.0
-      with:
-        template: Benoit-Bourdin-slide.md.j2
-        output_file: Benoit-Bourdin-slide.md
-        data_file: resume-data.yml
-        data_format: yaml
+      - uses: actions/checkout@v3
+      - name: Lint - yaml files
+        uses: ibiqlik/action-yamllint@v3
+
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Replace data (default) - resume
+        uses: cuchi/jinja2-action@v1.2.0
+        with:
+          template: Benoit-Bourdin-resume.rmd.j2
+          output_file: Benoit-Bourdin-resume.rmd
+          data_file: resume-data.yml
+          data_format: yaml    
+      - name: Replace data (default) - slide
+        uses: cuchi/jinja2-action@v1.2.0
+        with:
+          template: Benoit-Bourdin-slide.md.j2
+          output_file: Benoit-Bourdin-slide.md
+          data_file: resume-data.yml
+          data_format: yaml
+
+  lint-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint - markdown files
+        uses: actionshub/markdownlint@main
+        with:
+          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+
+  markdown-spell-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Node.js 12
+        uses: actions/setup-node@v3
+        with:
+          node-version: 12.x
+      - name: Install markdown-spellcheck
+        run: npm install -g markdown-spellcheck
+      - name: Run mdspell
+        run: find . -name "*.md" -o -name "*.rmd" | xargs mdspell -n -a -r --en-us --dictionary dictionary/en_US-large
