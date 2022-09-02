@@ -11,9 +11,6 @@ pipeline {
 		// pre-processing stages
 		// load DXC variables, only applicable on DXC side
 		stage('checkout the resume-dxc-data') {
-			environment {
-				DATA_BRANCH = "${env.BRANCH_NAME == 'master' ? 'master' : 'develop'}"
-			}
 			steps {
 				sh 'mkdir -p dxc-data'
 				dir('dxc-data') {
@@ -170,16 +167,16 @@ pipeline {
 			 }
 		}
 
-		// publishing
+		// publishing - only adapted to DXC GitHub
 		stage ('publish to github pages') {
 			environment {
 				REPO_PATH="bbourdin/resume.git";
-				MYBRANCH = "${env.BRANCH_NAME}";
-				TARGET_BRANCH = "${env.BRANCH_NAME == 'master' ? 'gh-pages' : 'develop-gh-pages'}"
+				TARGET_BRANCH = "${env.BRANCH_NAME == 'main' ? 'gh-pages' : 'develop-gh-pages'}"
 			}
 			when {
 				anyOf {
-					// We only publish when on master or develop branches
+					// We only publish when on main or develop branches
+					branch 'main';
 					branch 'master';
 					branch 'develop'
 				}
