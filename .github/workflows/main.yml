@@ -152,6 +152,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: Benoit-Bourdin-resume-slide
+          path: output/
       - name: Run R
         run: |
           ls -latr
