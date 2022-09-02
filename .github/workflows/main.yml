@@ -66,6 +66,8 @@ jobs:
       - name: List generated files
         run: |
           ls -l Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
+          echo ${GITHUB_REF##*/}
+          echo $GITHUB_HEAD_REF
       - name: Lint - markdown files
         uses: actionshub/markdownlint@main
         with:
@@ -75,7 +77,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-placeholder
     container:
-      image: ghcr.io/bbourdin/resume-spell:${GITHUB_REF##*/}
+      image: ghcr.io/bbourdin/resume-spell:gh-pages
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
