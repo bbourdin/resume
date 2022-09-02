@@ -1,6 +1,8 @@
 # Benoit Bourdin
 
-[Click here to access to my resume](https://github.dxc.com/pages/bbourdin/resume/)
+To access my resume, click on the link in the `About` section of this repository (top-right of this screen).
+
+My resume is available as a [public version](https://bbourdin.github.io/resume/) and [DXC version (visible only to DXC employees)](https://github.dxc.com/pages/bbourdin/resume/).
 
 ## This resume as code / the DevOps way
 
