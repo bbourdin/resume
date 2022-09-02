@@ -79,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-placeholder
     container:
-      image: ghcr.io/bbourdin/resume-spell:${{GITHUB_REF##*/}}
+      image: ghcr.io/bbourdin/resume-spell:${GITHUB_REF##*/}
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
