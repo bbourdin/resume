@@ -1,19 +1,18 @@
+---
 # This is a basic workflow to help you get started with Actions
 
 name: placeholder, test, build and publish
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+on:   # yamllint disable-line rule:truthy
+  # Triggers on push or pull request events but only for the main branch
   push:
-    branches: [ '**' ]
+    branches: ['**']
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   lint-yaml:
     runs-on: ubuntu-latest
@@ -32,7 +31,7 @@ jobs:
           template: Benoit-Bourdin-resume.rmd.j2
           output_file: Benoit-Bourdin-resume.rmd
           data_file: resume-data.yml
-          data_format: yaml    
+          data_format: yaml
       - name: Replace data (default) - slide
         uses: cuchi/jinja2-action@v1.2.0
         with:
@@ -40,11 +39,14 @@ jobs:
           output_file: Benoit-Bourdin-slide.md
           data_file: resume-data.yml
           data_format: yaml
+      - name: List generated files
+        run: |
+          ls -l Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
       - name: Cache documents with replaced data
         uses: actions/cache@v2
         id: restore-markdown
         with:
-          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
           key: ${{ runner.os }}-resume-markdown
 
   lint-markdown:
@@ -55,12 +57,12 @@ jobs:
         uses: actions/cache@v2
         id: restore-markdown
         with:
-          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
           key: ${{ runner.os }}-resume-markdown
       - name: Lint - markdown files
         uses: actionshub/markdownlint@main
         with:
-          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md
 
   markdown-spell-check:
     runs-on: ubuntu-latest
@@ -70,7 +72,7 @@ jobs:
         uses: actions/cache@v2
         id: restore-markdown
         with:
-          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md
           key: ${{ runner.os }}-resume-markdown
       - name: Install Node.js 12
         uses: actions/setup-node@v3
@@ -79,4 +81,6 @@ jobs:
       - name: Install markdown-spellcheck
         run: npm install -g markdown-spellcheck
       - name: Run mdspell
-        run: find . -name "*.md" -o -name "*.rmd" | xargs mdspell -n -a -r --en-us --dictionary dictionary/en_US-large
+        run: |
+          find . -name "*.md" -o -name "*.rmd" \
+           | xargs mdspell -n -a -r --en-us --dictionary dictionary/en_US-large
