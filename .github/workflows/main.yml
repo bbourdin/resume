@@ -74,11 +74,11 @@ jobs:
           path: Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md
 
   markdown-spell-check:
-    env:
-      SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell:${GITHUB_REF_NAME}
     runs-on: ubuntu-latest
     needs: build-placeholder
     container:
+      env:
+        SPELL_IMAGE_NAME: ghcr.io/bbourdin/resume-spell:${GITHUB_REF_NAME}
       image: "${{ env.SPELL_IMAGE_NAME }}"
       credentials:
         username: ${{ github.actor }}
