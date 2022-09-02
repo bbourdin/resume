@@ -160,12 +160,13 @@ jobs:
           R -e 'rmarkdown::render("Benoit-Bourdin-resume.rmd",
             output_format="all")'
           ls -latr
-          rm -rf output
+          mv output output-slides
           mkdir -p output/
           mv -f Benoit-Bourdin-resume.html index.html
           mv index.html Benoit-Bourdin-resume.md Benoit-Bourdin-resume.pdf \
             Benoit-Bourdin-resume.docx resume-timeline.png \
-            Benoit-Bourdin-resume_files output/
+            Benoit-Bourdin-resume_files \
+            output-slides/* Benoit-Bourdin-slide.png output/
       - name: upload generated slides as artifact
         uses: actions/upload-artifact@v2
         with:
