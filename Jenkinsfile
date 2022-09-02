@@ -129,7 +129,7 @@ pipeline {
 				unstash 'dxc_data'
 				sh '''
 				alias marp="node /home/marp/.cli/marp-cli.js"
-				export PUPPETEER_TIMEOUT=0
+				export PUPPETEER_TIMEOUT=0   # to solve this issue: https://github.com/marp-team/marp-vscode/issues/319
 				marp Benoit-Bourdin-slide.md
                 marp --pptx --allow-local-files Benoit-Bourdin-slide.md
 				marp --pdf --allow-local-files Benoit-Bourdin-slide.md
