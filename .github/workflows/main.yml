@@ -40,11 +40,23 @@ jobs:
           output_file: Benoit-Bourdin-slide.md
           data_file: resume-data.yml
           data_format: yaml
+      - name: Cache documents with replaced data
+        uses: actions/cache@v2
+        id: restore-markdown
+        with:
+          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          key: ${{ runner.os }}-resume-markdown
 
   lint-markdown:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Cache documents with replaced data
+        uses: actions/cache@v2
+        id: restore-markdown
+        with:
+          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          key: ${{ runner.os }}-resume-markdown
       - name: Lint - markdown files
         uses: actionshub/markdownlint@main
         with:
@@ -54,6 +66,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Cache documents with replaced data
+        uses: actions/cache@v2
+        id: restore-markdown
+        with:
+          path: "Benoit-Bourdin-resume.rmd Benoit-Bourdin-slide.md README.md"
+          key: ${{ runner.os }}-resume-markdown
       - name: Install Node.js 12
         uses: actions/setup-node@v3
         with:
