@@ -12,7 +12,8 @@ output:
     toc_float:
       collapsed: true
       smooth_scroll: true
-  pdf_document: default
+  pdf_document: 
+    latex_engine: xelatex
   word_document: default
 ---
 
@@ -20,8 +21,12 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**This resume is leveraging DevOps**: _Automatically built from [source code by a CI/CD pipeline]({{this_repo.url}})), and can be downloaded as [HTML]({{this_repo.pages_url}}/index.html), [PDF](Benoit-Bourdin-resume.pdf),  [Markdown]({{this_repo.url}}/blob/gh-pages/Benoit-Bourdin-resume.md) or [Word](Benoit-Bourdin-resume.docx).
+**This resume is leveraging DevOps**: _Automatically built from [source code by a CI/CD pipeline]({{this_repo.url}})), and can be downloaded as [HTML]({{this_repo.pages_url}}/index.html/index.html), [PDF](Benoit-Bourdin-resume.pdf),  [Markdown]({{this_repo.url}}/blob/gh-pages/Benoit-Bourdin-resume.md) or [Word](Benoit-Bourdin-resume.docx).
 One-slide view formats: [HTML](Benoit-Bourdin-slide.html), [Powerpoint](Benoit-Bourdin-slide.pptx), [PDF](Benoit-Bourdin-slide.pdf) or [PNG](Benoit-Bourdin-slide.png). To be notified on updates, go to [the repository]({{this_repo.url}}) and [click on Watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository)._
+
+Like it? [I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA)
+
+Like it? [I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA)
 
 ## Profile
 
@@ -32,11 +37,11 @@ One-slide view formats: [HTML](Benoit-Bourdin-slide.html), [Powerpoint](Benoit-B
 | **Visa/Work permit:** N/A                        | **Validity Date of Visa/Work Permit:** N/A |
 | **Willing to relocate:** No                      | **Willing to travel:** Yes (up to 10%)  |
 
-### Contact
+#### Contact
 
-| Email ID   | Contact |
+| Asynchronous (recommended)  | Synchronous |
 | ---------------- | ---------------- |
-| {{email_addr}} | {{contact_info}} [LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) |
+| {{async_contact_info}} [LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) / {{email_addr}} | {{sync_contact_info}} |
 
 ---
 
@@ -77,7 +82,9 @@ ggplot(data, aes(x=x, y=y)) +
 
 **Quotes** from our customers or account executive during 2022:
 
-> "_Sharing thanks and appreciation for Benoit’s good work for [this customer].  He is contributing and supporting in a great way for my team._"
+> ""_Sharing thanks and appreciation for Benoit’s good work for [this customer].  He is contributing and supporting in a great way for my team._"
+>
+>> Regional Account Delivery Lead - {{dxc_exp3.customer_shortname}}"
 >
 >> Regional Account Delivery Lead - {{dxc_exp3.customer_shortname}}
 
@@ -85,7 +92,13 @@ ggplot(data, aes(x=x, y=y)) +
 >
 >> Application Development lead - {{dxc_exp3.customer_shortname}}
 
-> "_Benoit is very responsive and helpful - anytime we have questions or need help looking into solutions, he provides detailed responses and includes multiple options/choices for solutions that make it easier for us to make informed decisions._"
+> ""_Benoit is very responsive and helpful - anytime we have questions or need help looking into solutions, he provides detailed responses and includes multiple options/choices for solutions that make it easier for us to make informed decisions._"
+>
+>> Director of IT applications - {{dxc_exp4.customer_shortname}}
+
+> "_Benoit is very knowledgeable within his domain, he is able to answer all the questions we have. If he doesn't have the answer, he will diligently research them and respond without us having to remind him._"
+>
+>> Project manager - {{dxc_exp4.customer_shortname}}"
 >
 >> Director of IT applications - {{dxc_exp4.customer_shortname}}
 
@@ -116,7 +129,7 @@ try(
   timeline.labels = c("Experience"),
   timeline.cex = c(2.8, 1.8),
   events.cex = 3,
-  timeline = data.frame(title = c(" ", "Security developer", "Unix/Linux admin", "Linux engineer", "Midrange administrator", "Webservices Project lead", "Middleware/automation SME", "Global middleware SME", "Product owner, Agile/DevOps coach", "DevOps/Scaled Agile coach", "Agile/DevOps transformation lead", "Product owner"),
+  timeline = data.frame(title = c(" ", "Security developer", "Unix/Linux admin", "Linux engineer", "Midrange administrator", "Webservices Project lead", "Middleware/automation SME", "Global middleware SME<br/>Scrum master", "Product owner, Agile/DevOps coach", "DevOps/Scaled Agile coach", "Agile/DevOps transformation lead", "Product owner"),
                         sub = c(" ", "Axians Neurocom", "Linkbynet", "Ounet Sistemi", "CSC ({{dxc_exp1.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "DXC (ITO Global capabilities)", "DXC (OE&E Platform DXC Middleware)", "DXC (Enterprise DevOps-Agile enablement)", "DXC ({{dxc_exp3.customer_shortname}}, {{dxc_exp4.customer_shortname}})", "DXC DevCloud platform"),
                         start = c(2002, 2004, 2005, 2006, 2008, 2010, 2012, 2017, 2018.7, 2019.7, 2020.5, 2021.4),
                         end = c(2004, 2005, 2006, 2008, 2010, 2012, 2017, 2018.7, 2019.7, 2020.5, 2022.6, 2022.6),
@@ -227,6 +240,7 @@ row.names(people_data) <- people_wordlist
 
 process_wordlist = c(
     "Agile@scale",
+    "Product management",
     "Product management",
     "Continuous improvement",
     "Value Stream Mapping",
@@ -442,7 +456,7 @@ mycolors = brewer.pal(8, "Dark2")
 * DevOps culture, practices and tools (4 years)
 * Agile culture, methods and tools (4 years)
 * Lean method, Value Stream Management (2 years)
-* Product management, engineering and development (2 years)
+* Product management, engineering, engineering and development (2 years)
 * Middleware: web servers, application servers (11 years)
 * ITSM practice (10 years)
 * Unix/Linux (10+ years), Software development (Java, C, Shell… - 2 years), Networking (2 years)
@@ -454,7 +468,7 @@ mycolors = brewer.pal(8, "Dark2")
 ### DXC Technology
 
 * _{{dxc_exp3.customer_longname}}_ (from 2020) - **Agile and DevOps transformation lead**
-  * Leading the DevOps/Lean/Agile enablement team (team of coaches) for this account. Weekly consulting on agility, scaling agile and team topologies, Kanban for flow management, training, agile tooling (Azure DevOps, Jira, Jira Cloud, Planner), value stream mapping, measurement of leading (flow metrics) and lagging indicators (business outcomes).
+  * Leading the DevOps/Lean/Agile enablement team (team of coaches) for this account. Weekly consulting on agility, scaling agile and team topologies, Kanban for flow management, training, agile tooling, value stream mapping, measurement of business outcomes.
   * Led two Value Stream Mapping (VSM) workshops, clarified team APIs, implementation of a continuous improvement framework with the leaders, leveraging transformation patterns for small and specific improvements using a Kata template.
   * Identification of the transformation expected outcomes in partnership with the customer, and implementation of the measurements.
 
@@ -471,8 +485,9 @@ mycolors = brewer.pal(8, "Dark2")
 * _DXC community (from 2017)_ - **agile/DevOps coach and leader of communities of practice**
   * Pre-sales of coaching services, delivery of coaching services (also called advisory or enablement services). Value Stream Mapping workshops for several customers.
   * Agile and DevOps coaching for other customers and internal organization, for their specific question or use case, leveraging many other different patterns, practices and tools.
-  * Co-leader of the main DevOps/Lean/Agile and of the team topologies community of practice in DXC. Contributor to all the other DevOps/Lean/Agile communities of practice (presentations, consulting, creation of re-usable assets...) including Agile contracting, Value Stream Mapping, Agile@scale, SRE... Speaker on different topics like asynchronous communication, agile metrics, GitOps, DataOps.
-  * Speaker and part of the staff (scrum master) of the DXC Agile Marathon every year, which is a global event of 24 hours with presentations from all our best agile champions. Driving the staff to be an high performance agile team using innovation, Scrum (ex: sprints of 2 days), Azure DevOps.
+  * Agile and DevOps coaching for other customers and internal organization, for their specific question or use case, leveraging many other different patterns, practices and tools.
+  * Co-leader of the main DevOps/Lean/Agile and of the team topologies community of practice in DXC. Contributor to all the other DevOps/Lean/Agile communities of practice (presentations, consulting, creation of re-usable assets...) including Agile contracting, Value Stream Mapping, Agile@scale, SRE... Speaker on different topics like asynchronous communication, agile metrics, GitOps, DataOps. Speaker on different topics like asynchronous communication, agile metrics, GitOps, DataOps.
+  * Speaker and part of the staff (scrum master) of the DXC Agile Marathon every year, which is a global event of 24 hours with presentations from all our best agile champions. Driving the staff to be an high performance agile team using innovation, Scrum (ex: sprints of 2 days), Azure DevOps. Driving the staff to be an high performance agile team using innovation, Scrum (ex: sprints of 2 days), Azure DevOps.
 
 * _[Enterprise DevOps/Agile enablement](https://github.dxc.com/pages/bionix/storefront/products/DevOps/) team_ (2019-2020) - **DevOps/Scaled Agile coach**
   * Coaching at scale, coaching coaches, targeting 200,000+ employees to embrace the DevSecOps and Scaled Agile transformation to maximize the value stream.
@@ -492,6 +507,7 @@ mycolors = brewer.pal(8, "Dark2")
 
 * _IT Operations global capabilities_ (2017-2018) - **Global capability middleware SME**
   * Optimization of the delivery operations for the middleware capability, in all the service management areas. Establishing standards and best practices globally for all the middleware installations in DXC. Supporting the development of automation (python, shell) and the delivery team of all the accounts worldwide for any technical concern.
+  * Optimization of the delivery operations for the middleware capability, in all the service management areas. Establishing standards and best practices globally for all the middleware installations in DXC. Supporting the development of automation (python, shell) and the development of automation (python, shell) and the delivery team of all the accounts worldwide for any technical concern.
   * Leading the middleware automation (DevOps and Bionix) initiatives, supporting the digital transition by building new standards using new methods (Agile) and tools (Jenkins, GitHub, Artifactory, Ansible/IAF/Raffia, docker, AWS, Jira, Azure DevOps …).
   * Scrum master, improving transparency and delivery flow of the team
 
@@ -549,6 +565,18 @@ Technical trainer, C++/network  programming, C programming for Nagios+Squid, Lin
 * Insurance – 7 years
 * Automotive – 3 years
 * Legal service – 2 years
+
+---
+
+## Education and other
+
+09/2005 Master's degree in Networks and Telecommunications, Paris XI university, Orsay, France.
+
+07/2004 Degree and master's in computer science Paris XI, Orsay, France.
+
+07/2002 Polytechnic university (DUT informatique), IUT Orsay, France.
+
+07/1999 A Level of Science (Baccalaureat), Saint Vincent school, Senlis, France.
 
 ---
 
