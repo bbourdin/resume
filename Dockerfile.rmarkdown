@@ -3,7 +3,7 @@ FROM rocker/r-rmd
 RUN apt-get update -y --allow-releaseinfo-change
 
 # using xelatex instead of pdflatex for unicode/emoji support
-RUN apt-get install texlive-xetex
+RUN apt-get install -y texlive-xetex
 
 # R ggplot2 dependencies	
 RUN apt-get install -y \
