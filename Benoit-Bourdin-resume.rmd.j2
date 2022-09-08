@@ -1,7 +1,4 @@
 ---
-title: 'Benoit Bourdin'
-author: 'Agile/DevOps transformation lead at DXC'
-date: "_(remote from Asturias, Spain)_"
 output:
   md_document:
     variant: markdown_github
@@ -14,6 +11,7 @@ output:
       smooth_scroll: true
   pdf_document:
     latex_engine: xelatex
+    extra_dependencies: ["xelatexemoji"]
   word_document: default
 ---
 
@@ -21,35 +19,36 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**This resume is leveraging DevOps**: _Automatically built from [source code by a CI/CD pipeline]({{this_repo.url}})), and can be downloaded as [HTML]({{this_repo.pages_url}}/index.html/index.html), [PDF](Benoit-Bourdin-resume.pdf),  [Markdown]({{this_repo.url}}/blob/gh-pages/Benoit-Bourdin-resume.md) or [Word](Benoit-Bourdin-resume.docx).
-One-slide view formats: [HTML](Benoit-Bourdin-slide.html), [Powerpoint](Benoit-Bourdin-slide.pptx), [PDF](Benoit-Bourdin-slide.pdf) or [PNG](Benoit-Bourdin-slide.png). To be notified on updates, go to [the repository]({{this_repo.url}}) and [click on Watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository)._
+_This resume is leveraging DevOps `r emo::ji("rocket")` (automatically built from [source code by a CI/CD pipeline]({{this_repo.url}}))_.
 
-Like it? [I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA)
+**Resume:** [HTML]({{this_repo.pages_url}}/index.html/index.html) / [Markdown]({{this_repo.url}}/blob/gh-pages/Benoit-Bourdin-resume.md) / [PDF](Benoit-Bourdin-resume.pdf) / [Word](Benoit-Bourdin-resume.docx). **One-slide**: [One-slide HTML](Benoit-Bourdin-slide.html) / [Powerpoint](Benoit-Bourdin-slide.pptx) / [PDF](Benoit-Bourdin-slide.pdf) / [PNG](Benoit-Bourdin-slide.png).
 
-Like it? [I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA)
+[Like it? I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA). Be notified `r emo::ji("notification")` on updates: [watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository) [the GitHub repository]({{this_repo.url}}).
+
+---
 
 ## Profile
 
 [![](Benoit-Bourdin-slide.png)](Benoit-Bourdin-slide.html)
 
-| **Total experience:** 18 Years                   | **Experience in DXC:** 14 Years     |
-|-------------------- | ---------------------------------------- |
-| **Visa/Work permit:** N/A                        | **Validity Date of Visa/Work Permit:** N/A |
-| **Willing to relocate:** No                      | **Willing to travel:** Yes (up to 10%)  |
-
-### Contact
-
-| Asynchronous (recommended)  | Synchronous |
-| ---------------- | ---------------- |
-| {{async_contact_info}} [LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) / {{email_addr}} | {{sync_contact_info}} |
-
----
++--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| **{{github_profile}}**                                 | `r emo::ji("bubble")` **{{async_contact_info}}[LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) / {{email_addr}}** |
+|                                                        | **{{sync_contact_info}} `r emo::ji("telephone")`**                                                         |
++========================================================+============================================================================================================+
+| **Total experience:** 18 Years                         | **Experience in DXC:** 14 Years                                                                            |
++--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| **Visa/Work permit:** N/A                              | **Validity Date of Visa/Work Permit:** N/A                                                                  |
++--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| **Willing to relocate:** No                            | **Willing to travel:** Yes (up to 10%)                                                                     |
++--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
 
 ### 100-word biography/profile presentation
 
-Benoit is leading the DevOps and Agile transformation of several DXC teams, organizations and customers, by coaching on the Agile/Lean/DevOps culture, practices and the tools. He is also contributing as product owner of the DXC central DevOps/Agile platform to 28,000 active users, in several communities of practice and for pre-sales.
+Benoit is **leading** the **DevOps and Agile transformation** of several DXC teams, organizations and customers, by **coaching** on the **Agile/Lean/DevOps** culture, practices and the tools. He is also contributing as **product owner of the DXC central DevOps/Agile platform** to 28,000 active users, in several communities of practice and for pre-sales.
 
 Previously, Benoit has also worked as middleware & automation SME in DXC, leading projects for large customers, global standards for all customers, architectural roadmap of an automation platform and led all the automation initiatives. Before DXC, Benoit worked as system administrator, after several experiences in software development and network administration.
+
+\newpage
 
 ### Recent performance
 
@@ -84,8 +83,6 @@ ggplot(data, aes(x=x, y=y)) +
 
 > ""_Sharing thanks and appreciation for Benoit’s good work for [this customer].  He is contributing and supporting in a great way for my team._"
 >
->> Regional Account Delivery Lead - {{dxc_exp3.customer_shortname}}"
->
 >> Regional Account Delivery Lead - {{dxc_exp3.customer_shortname}}
 
 > "_I would like to also thanks Benoit for all his help completing the VSM for our team. His deep knowledge and understanding help us achieve this in a very reasonable and short time. I can’t wait to continue working with him as we move to the next step. [It is an] outstanding job you are doing when coaching us that benefits DXC and [the customer]._"
@@ -108,6 +105,8 @@ ggplot(data, aes(x=x, y=y)) +
 
 ---
 
+\newpage
+
 ## Experience
 
 ```{r VisualResume, echo=FALSE, error=TRUE, warning=FALSE, message=TRUE, out.width='1344px', out.height='700px' }
@@ -129,8 +128,8 @@ try(
   timeline.labels = c("Experience"),
   timeline.cex = c(2.8, 1.8),
   events.cex = 3,
-  timeline = data.frame(title = c(" ", "Security developer", "Unix/Linux admin", "Linux engineer", "Midrange administrator", "Webservices Project lead", "Middleware/automation SME", "Global middleware SME<br/>Scrum master", "Product owner, Agile/DevOps coach", "DevOps/Scaled Agile coach", "Agile/DevOps transformation lead", "Product owner"),
-                        sub = c(" ", "Axians Neurocom", "Linkbynet", "Ounet Sistemi", "CSC ({{dxc_exp1.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "DXC (ITO Global capabilities)", "DXC (OE&E Platform DXC Middleware)", "DXC (Enterprise DevOps-Agile enablement)", "DXC ({{dxc_exp3.customer_shortname}}, {{dxc_exp4.customer_shortname}})", "DXC DevCloud platform"),
+  timeline = data.frame(title = c(" ", "Security developer", "Unix/Linux admin", "Linux engineer", "Midrange administrator", "Webservices Project lead", "Middleware/automation SME", "Global middleware SME \n Scrum master", "Product owner, Agile/DevOps coach", "DevOps/Scaled Agile coach, Scrum master", "Agile/DevOps transformation lead", "Product owner"),
+                        sub = c(" ", "Axians Neurocom", "Linkbynet", "Ounet Sistemi", "CSC ({{dxc_exp1.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "CSC ({{dxc_exp2.customer_shortname}})", "\n\nDXC (ITO Global capabilities)", "DXC (OE&E Platform DXC Middleware)", "DXC (Enterprise DevOps-Agile enablement)", "DXC ({{dxc_exp3.customer_shortname}}, {{dxc_exp4.customer_shortname}})", "DXC DevCloud platform"),
                         start = c(2002, 2004, 2005, 2006, 2008, 2010, 2012, 2017, 2018.7, 2019.7, 2020.5, 2021.4),
                         end = c(2004, 2005, 2006, 2008, 2010, 2012, 2017, 2018.7, 2019.7, 2020.5, 2022.6, 2022.6),
                         side = c(1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0),
@@ -170,6 +169,7 @@ suppressMessages({
 
 * Agile/Lean/DevOps transformation lead and coach (4 years)
 * Product owner (2 years)
+* Scrum master (2 years)
 * Supervisor/team leader (2 years)
 * Global Middleware SME (2 years)
 * Middleware/automation SME (10 years)

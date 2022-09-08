@@ -4,7 +4,9 @@ template: public
 
 email_addr: benoit.bourdin@gmail.com
 
-async_contact_info: "[GitHub](https://github.com/bbourdin) / "
+github_profile: "[GitHub profile](https://github.com/bbourdin)"
+
+async_contact_info: ""
 
 sync_contact_info: "[Schedule a call](https://zcal.co/i/CewT_0LV)"
 

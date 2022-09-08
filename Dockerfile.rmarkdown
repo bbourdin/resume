@@ -2,9 +2,6 @@ FROM rocker/r-rmd
 
 RUN apt-get update -y --allow-releaseinfo-change
 
-# using xelatex instead of pdflatex for unicode/emoji support
-RUN apt-get install -y texlive-xetex
-
 # R ggplot2 dependencies	
 RUN apt-get install -y \
 	r-cran-ggplot2 \
@@ -52,6 +49,12 @@ RUN apt-get install -y \
 #  the following remaining dependencies will be installed: sysfonts, MatrixModels, showtextdb, jpeg, showtext, yarrr
 #  as it is linux, will be compiled but will take about 30s
 RUN R -e "devtools::install_github(\"ndphillips/VisualResume\")"
+
+# using xelatex instead of pdflatex for unicode/emoji support
+RUN apt-get install -y texlive-xetex
+# adding xelatexemoji for rendering in PDF
+RUN git clone https://github.com/mreq/xelatex-emoji.git
+RUN mv xelatex-emoji/*.sty .
 
 # this package is for including emojis in Rmarkdown
 RUN R -e "devtools::install_github(\"hadley/emo\")"
