@@ -50,9 +50,8 @@ RUN apt-get install -y \
 #  as it is linux, will be compiled but will take about 30s
 RUN R -e "devtools::install_github(\"ndphillips/VisualResume\")"
 
-# using xelatex instead of pdflatex for unicode/emoji support
-RUN apt-get install -y texlive-xetex
-# adding xelatexemoji for rendering in PDF
+# using xelatex instead of pdflatex for unicode/emoji support, adding xelatexemoji for rendering in PDF
+RUN apt-get install -y texlive-xetex git
 RUN git clone https://github.com/mreq/xelatex-emoji.git
 RUN mv xelatex-emoji/*.sty .
 
