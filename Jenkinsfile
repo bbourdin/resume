@@ -157,6 +157,8 @@ pipeline {
 				sh '''
                 ls -latr
 				mv -f output/Benoit-Bourdin-slide.png .
+				pwd
+				cp -f /work/*.sty .
                 R -e \'rmarkdown::render("Benoit-Bourdin-resume.rmd",output_format="all")\'
                 ls -latr
 				rm -rf output
