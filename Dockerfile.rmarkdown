@@ -53,8 +53,7 @@ RUN R -e "devtools::install_github(\"ndphillips/VisualResume\")"
 # using xelatex instead of pdflatex for unicode/emoji support, adding xelatexemoji for rendering in PDF
 RUN apt-get install -y texlive-xetex git
 RUN git clone https://github.com/mreq/xelatex-emoji.git
-RUN mkdir -p /work
-RUN mv xelatex-emoji/*.sty /work/
+RUN mv xelatex-emoji/*.sty /usr/share/texmf/
 
 # this package is for including emojis in Rmarkdown
 RUN R -e "devtools::install_github(\"hadley/emo\")"
