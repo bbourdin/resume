@@ -157,7 +157,6 @@ pipeline {
 				sh '''
                 ls -latr
 				mv -f output/Benoit-Bourdin-slide.png .
-				ls -l /usr/share/texmf/
 				cp -f /usr/share/texmf/xelatex*.sty .
                 R -e \'rmarkdown::render("Benoit-Bourdin-resume.rmd",output_format="all")\'
                 ls -latr
