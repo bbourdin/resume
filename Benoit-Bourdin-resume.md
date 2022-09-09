@@ -1,40 +1,63 @@
-**This resume is leveraging DevOps**: *Automatically built from [source
-code by a CI/CD pipeline](https://github.com/bbourdin/resume/)), and can
-be downloaded as [HTML](https://bbourdin.github.io/resume//index.html),
-[PDF](Benoit-Bourdin-resume.pdf),
+*This resume is leveraging DevOps 🚀 (automatically built from [source
+code by a CI/CD pipeline](https://github.com/bbourdin/resume/))*.
+
+**Resume:**
+[HTML](https://bbourdin.github.io/resume//index.html/index.html) /
 [Markdown](https://github.com/bbourdin/resume//blob/gh-pages/Benoit-Bourdin-resume.md)
-or [Word](Benoit-Bourdin-resume.docx). One-slide view formats:
-[HTML](Benoit-Bourdin-slide.html),
-[Powerpoint](Benoit-Bourdin-slide.pptx), [PDF](Benoit-Bourdin-slide.pdf)
-or [PNG](Benoit-Bourdin-slide.png). To be notified on updates, go to
-[the repository](https://github.com/bbourdin/resume/) and [click on
-Watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository).*
+/ [PDF](Benoit-Bourdin-resume.pdf) / [Word](Benoit-Bourdin-resume.docx).
+**One-slide**: [One-slide HTML](Benoit-Bourdin-slide.html) /
+[Powerpoint](Benoit-Bourdin-slide.pptx) /
+[PDF](Benoit-Bourdin-slide.pdf) / [PNG](Benoit-Bourdin-slide.png).
+
+[Like it? I would ❤️ your
+feedback!](https://forms.gle/uicsQT38UznBk6rcA). Be notified 🔔 on
+updates:
+[watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository)
+[the GitHub repository](https://github.com/bbourdin/resume/).
+
+------------------------------------------------------------------------
 
 Profile
 -------
 
 [![](Benoit-Bourdin-slide.png)](Benoit-Bourdin-slide.html)
 
-| **Total experience:** 18 Years | **Experience in DXC:** 14 Years            |
-|--------------------------------|--------------------------------------------|
-| **Visa/Work permit:** N/A      | **Validity Date of Visa/Work Permit:** N/A |
-| **Willing to relocate:** No    | **Willing to travel:** Yes (up to 10%)     |
-
-### Contact
-
-| Email ID                                                                             | Contact                                                                                                 |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a> | [GitHub](https://github.com/bbourdin) / [LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) |
-
-------------------------------------------------------------------------
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 65%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong><a href="https://github.com/bbourdin">GitHub profile</a></strong></th>
+<th><div class="line-block">💬 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
+<strong><a href="https://zcal.co/i/CewT_0LV">Schedule a call</a> ☎️</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Total experience:</strong> 18 Years</td>
+<td><strong>Experience in DXC:</strong> 14 Years</td>
+</tr>
+<tr class="even">
+<td><strong>Visa/Work permit:</strong> N/A</td>
+<td><strong>Validity Date of Visa/Work Permit:</strong> N/A</td>
+</tr>
+<tr class="odd">
+<td><strong>Willing to relocate:</strong> No</td>
+<td><strong>Willing to travel:</strong> Yes (up to 10%)</td>
+</tr>
+</tbody>
+</table>
 
 ### 100-word biography/profile presentation
 
-Benoit is leading the DevOps and Agile transformation of several DXC
-teams, organizations and customers, by coaching on the Agile/Lean/DevOps
-culture, practices and the tools. He is also contributing as product
-owner of the DXC central DevOps/Agile platform to 28,000 active users,
-in several communities of practice and for pre-sales.
+Benoit is **leading** the **DevOps and Agile transformation** of several
+DXC teams, organizations and customers, by **coaching** on the
+**Agile/Lean/DevOps** culture, practices and the tools. He is also
+contributing as **product owner of the DXC central DevOps/Agile
+platform** to 28,000 active users, in several communities of practice
+and for pre-sales.
 
 Previously, Benoit has also worked as middleware & automation SME in
 DXC, leading projects for large customers, global standards for all
@@ -49,7 +72,7 @@ network administration.
 
 **Quotes** from our customers or account executive during 2022:
 
-> “*Sharing thanks and appreciation for Benoit’s good work for \[this
+> "“*Sharing thanks and appreciation for Benoit’s good work for \[this
 > customer\]. He is contributing and supporting in a great way for my
 > team.*”
 >
@@ -64,10 +87,19 @@ network administration.
 >
 > > Application Development lead - Manufacturing
 
-> “*Benoit is very responsive and helpful - anytime we have questions or
-> need help looking into solutions, he provides detailed responses and
-> includes multiple options/choices for solutions that make it easier
-> for us to make informed decisions.*”
+> "“*Benoit is very responsive and helpful - anytime we have questions
+> or need help looking into solutions, he provides detailed responses
+> and includes multiple options/choices for solutions that make it
+> easier for us to make informed decisions.*”
+>
+> > Director of IT applications - Media & Entertainment
+
+> “*Benoit is very knowledgeable within his domain, he is able to answer
+> all the questions we have. If he doesn’t have the answer, he will
+> diligently research them and respond without us having to remind
+> him.*”
+>
+> > Project manager - Media & Entertainment"
 >
 > > Director of IT applications - Media & Entertainment
 
@@ -89,6 +121,7 @@ Experience
 
 -   Agile/Lean/DevOps transformation lead and coach (4 years)
 -   Product owner (2 years)
+-   Scrum master (2 years)
 -   Supervisor/team leader (2 years)
 -   Global Middleware SME (2 years)
 -   Middleware/automation SME (10 years)
@@ -104,10 +137,11 @@ Skills
 
 ### Top Skills (Technical/Nontechnical skills)
 
--   DevOps culture, practices and tools (4 years)
 -   Agile culture, methods and tools (4 years)
+-   DevOps culture, practices and tools (4 years)
 -   Lean method, Value Stream Management (2 years)
--   Product management, engineering and development (2 years)
+-   Product management, engineering, engineering and development (2
+    years)
 -   Middleware: web servers, application servers (11 years)
 -   ITSM practice (10 years)
 -   Unix/Linux (10+ years), Software development (Java, C, Shell… - 2
@@ -125,9 +159,7 @@ Experience detailed
     -   Leading the DevOps/Lean/Agile enablement team (team of coaches)
         for this account. Weekly consulting on agility, scaling agile
         and team topologies, Kanban for flow management, training, agile
-        tooling (Azure DevOps, Jira, Jira Cloud, Planner), value stream
-        mapping, measurement of leading (flow metrics) and lagging
-        indicators (business outcomes).
+        tooling, value stream mapping, measurement of business outcomes.
     -   Led two Value Stream Mapping (VSM) workshops, clarified team
         APIs, implementation of a continuous improvement framework with
         the leaders, leveraging transformation patterns for small and
@@ -175,6 +207,9 @@ Experience detailed
     -   Agile and DevOps coaching for other customers and internal
         organization, for their specific question or use case,
         leveraging many other different patterns, practices and tools.
+    -   Agile and DevOps coaching for other customers and internal
+        organization, for their specific question or use case,
+        leveraging many other different patterns, practices and tools.
     -   Co-leader of the main DevOps/Lean/Agile and of the team
         topologies community of practice in DXC. Contributor to all the
         other DevOps/Lean/Agile communities of practice (presentations,
@@ -182,12 +217,15 @@ Experience detailed
         contracting, Value Stream Mapping,
         <a href="mailto:Agile@scale" class="email">Agile@scale</a>, SRE…
         Speaker on different topics like asynchronous communication,
-        agile metrics, GitOps, DataOps.
+        agile metrics, GitOps, DataOps. Speaker on different topics like
+        asynchronous communication, agile metrics, GitOps, DataOps.
     -   Speaker and part of the staff (scrum master) of the DXC Agile
         Marathon every year, which is a global event of 24 hours with
         presentations from all our best agile champions. Driving the
         staff to be an high performance agile team using innovation,
-        Scrum (ex: sprints of 2 days), Azure DevOps.
+        Scrum (ex: sprints of 2 days), Azure DevOps. Driving the staff
+        to be an high performance agile team using innovation, Scrum
+        (ex: sprints of 2 days), Azure DevOps.
 -   *[Enterprise DevOps/Agile
     enablement](https://github.dxc.com/pages/bionix/storefront/products/DevOps/)
     team* (2019-2020) - **DevOps/Scaled Agile coach**
@@ -258,8 +296,9 @@ Experience detailed
         capability, in all the service management areas. Establishing
         standards and best practices globally for all the middleware
         installations in DXC. Supporting the development of automation
-        (python, shell) and the delivery team of all the accounts
-        worldwide for any technical concern.
+        (python, shell) and the development of automation (python,
+        shell) and the delivery team of all the accounts worldwide for
+        any technical concern.
     -   Leading the middleware automation (DevOps and Bionix)
         initiatives, supporting the digital transition by building new
         standards using new methods (Agile) and tools (Jenkins, GitHub,
@@ -375,6 +414,8 @@ university, Orsay, France.
 
 07/1999 A Level of Science (Baccalaureat), Saint Vincent school, Senlis,
 France.
+
+------------------------------------------------------------------------
 
 ### Certifications (Professional Activities, Certifications, and Training Attended)
 
