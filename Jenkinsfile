@@ -130,10 +130,10 @@ pipeline {
 				sh '''
 				alias marp="node /home/marp/.cli/marp-cli.js"
 				export PUPPETEER_TIMEOUT=0   # to solve this issue: https://github.com/marp-team/marp-vscode/issues/319
-				marp Benoit-Bourdin-slide.md
-                marp --pptx --allow-local-files Benoit-Bourdin-slide.md
-				marp --pdf --allow-local-files Benoit-Bourdin-slide.md
-				marp --image png --allow-local-files Benoit-Bourdin-slide.md
+				marp --html Benoit-Bourdin-slide.md
+                marp --pptx --allow-local-files --html Benoit-Bourdin-slide.md
+				marp --pdf --allow-local-files --html Benoit-Bourdin-slide.md
+				marp --image png --allow-local-files --html Benoit-Bourdin-slide.md
 				ls -latr
 				rm -rf output
 				mkdir -p output/
@@ -157,6 +157,7 @@ pipeline {
 				sh '''
                 ls -latr
 				mv -f output/Benoit-Bourdin-slide.png .
+				cp -f /usr/share/texmf/xelatex*.sty .
                 R -e \'rmarkdown::render("Benoit-Bourdin-resume.rmd",output_format="all")\'
                 ls -latr
 				rm -rf output

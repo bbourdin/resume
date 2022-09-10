@@ -82,13 +82,14 @@ Novell
 Guidewire
 Bionix
 
-# File names
+# File names and technical stuff
 Jenkinsfile
 Dockerfile
 rmd.j2
 md.j2
 yml
 r-rmd
+newpage
 
 # Other general
 Benoit
