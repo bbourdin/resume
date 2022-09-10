@@ -72,7 +72,7 @@ network administration.
 
 **Quotes** from our customers or account executive during 2022:
 
-> "“*Sharing thanks and appreciation for Benoit’s good work for \[this
+> “*Sharing thanks and appreciation for Benoit’s good work for \[this
 > customer\]. He is contributing and supporting in a great way for my
 > team.*”
 >
@@ -87,19 +87,10 @@ network administration.
 >
 > > Application Development lead - Manufacturing
 
-> "“*Benoit is very responsive and helpful - anytime we have questions
-> or need help looking into solutions, he provides detailed responses
-> and includes multiple options/choices for solutions that make it
-> easier for us to make informed decisions.*”
->
-> > Director of IT applications - Media & Entertainment
-
-> “*Benoit is very knowledgeable within his domain, he is able to answer
-> all the questions we have. If he doesn’t have the answer, he will
-> diligently research them and respond without us having to remind
-> him.*”
->
-> > Project manager - Media & Entertainment"
+> “*Benoit is very responsive and helpful - anytime we have questions or
+> need help looking into solutions, he provides detailed responses and
+> includes multiple options/choices for solutions that make it easier
+> for us to make informed decisions.*”
 >
 > > Director of IT applications - Media & Entertainment
 
@@ -264,10 +255,10 @@ Experience detailed
         monitoring](https://github.dxc.com/Platform-DXC/architecture/blob/master/Cross-Pillar-Processes-and-Flows/Discovery-to-RBA.md)
         product - only [the middleware
         piece](https://github.dxc.com/Platform-DXC/monitoring-catalog#middleware)),
-        supervisor of the middleware team. Optimizing the ROI by setting
-        priorities and optimizing resources. Roadmapping, risk and
-        dependencies management. Team building, facilitating the
-        communication and onboarding new resources.
+        team leader/supervisor of the middleware team. Optimizing the
+        ROI by setting priorities and optimizing resources. Roadmapping,
+        risk and dependencies management. Team building, facilitating
+        the communication and onboarding new resources.
     -   Automation and Middleware chief architect, working on the end to
         end DevOps automation chain integrated in the next digital
         transformation platform of our global company (Platform
