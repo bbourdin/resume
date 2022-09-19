@@ -30,7 +30,7 @@ Profile
 <thead>
 <tr class="header">
 <th><strong><a href="https://github.com/bbourdin">GitHub profile</a></strong></th>
-<th><div class="line-block">💬 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
+<th><div class="line-block">🗯 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
 <strong><a href="https://zcal.co/i/CewT_0LV">Schedule a call</a> ☎️</strong></th>
 </tr>
 </thead>
