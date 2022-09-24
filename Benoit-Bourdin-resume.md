@@ -30,7 +30,7 @@ Profile
 <thead>
 <tr class="header">
 <th><strong><a href="https://github.com/bbourdin">GitHub profile</a></strong></th>
-<th><div class="line-block">🗯 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
+<th><div class="line-block">💬 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
 <strong><a href="https://zcal.co/i/CewT_0LV">Schedule a call</a> ☎️</strong></th>
 </tr>
 </thead>
@@ -52,12 +52,12 @@ Profile
 
 ### 100-word biography/profile presentation
 
-Benoit is **leading** the **DevOps and Agile transformation** of several
-DXC teams, organizations and customers, by **coaching** on the
-**Agile/Lean/DevOps** culture, practices and the tools. He is also
-contributing as **product owner of the DXC central DevOps/Agile
-platform** to 28,000 active users, in several communities of practice
-and for pre-sales.
+Benoit is the **Product Owner of the DXC central Agile/DevOps platform**
+to 28,000 active users, and is **leading** the **Agile/DevOps
+transformation** of several DXC teams, organizations and customers, by
+**coaching** on the **Agile/Lean/DevOps** culture, practices and the
+tools. He is also contributing in several communities of practice and
+for pre-sales.
 
 Previously, Benoit has also worked as middleware & automation SME in
 DXC, leading projects for large customers, global standards for all
@@ -66,7 +66,138 @@ the automation initiatives. Before DXC, Benoit worked as system
 administrator, after several experiences in software development and
 network administration.
 
-### Recent performance
+**More details below**:
+
+👉 [Portfolio of managed products](#portfolio-of-managed-products) /
+[Some of the Teams I could lead](#some-of-the-teams-i-could-lead) /
+[Recent performance](#recent-performance)
+
+👉 [Experience](#experience) / [Skills](#skills) / [Experience
+detailed](#experience-detailed) / [Education and
+other](#education-and-other)
+
+Portfolio of managed products
+-----------------------------
+
+<img src="img/devcloud-all.png" width="600" />
+
+### *DXC DevCloud (Product Owner in 2021-2022)*
+
+**Users 👨**: **28,000** (active) users, who deliver software using
+Agile/DevOps practices in a central platform.
+
+**Business value 💸**: More IP, agility, speed and quality of the IT
+services to **900+ customers**.
+
+**Technology 🚀**: AWS, Kubernetes, Terraform, CloudFormation, Ansible,
+Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
+38 CI/CD pipelines.
+
+**Team 👥**: 3 proxy product owners, **15 DevOps engineers** and our bot
+🤖 for 70% of the requests.
+
+-   **Measuring 💹** in every sprint review the development/service and
+    improvement. Made **transparent** 🆗 300 **risks and debts** in the
+    backlog, and **managed** it with an impact/probability matrix.
+-   Supported the team on 50 knowledge risks, making a **huge effective
+    learning** 🏫 to the team.
+-   **Improved** 📈 **NPS to +95%**, availability from 97% to 99.6%, MTTR
+    from 7 to 1 day, and unblocked the delivery of the other 400 work
+    items which are including **features**.
+
+------------------------------------------------------------------------
+
+<img src="img/platform-x-all.png" width="600" />
+
+### *[Platform-X](https://dxc.com/us/en/about-us/how-we-deliver/platform-x) Content Middleware (Product Owner in 2018-2019)*
+
+**Users 👨**: **3.3M users** managing the IT estate of **450+
+customers**. - **Team 👥**: **5 engineers**.
+
+**Business value 💳**: Discovery/monitoring of **hundreds of** middleware
+**instances** in ***few hours***. **50-75% automated resolution** of
+incidents.
+
+**Technology 🚀**: ServiceNow (CMDB, Flow, Incident), Microfocus UD,
+Nagios, API, JSON, Python.
+
+-   **Initial technical design**, roadmap, resource **hiring**.
+    Development to support the **5 most common middleware products**,
+    automated discovery, monitoring the top \#10 metrics and automated
+    resolution of the top \#10 incidents.
+-   Improved the **coordination** for the end-to-end integration
+    including external vendors, **from *months* to *weeks***. Improved
+    the **testing** process **from *2 months* to few *hours***.
+
+Some of the Teams I could lead
+------------------------------
+
+<img src="img/arvan-team.png" width="40%" style="display: block; margin: auto;" />
+
+### *Agile Marathon (Arvan) team (Scrum master in 2020)*
+
+**Team 👥**: **9 coordinators**. **Purpose ✈️**: Staff organizing a
+global 24-hours **conference on Agile**.
+
+**Way of working 👉**: **Culture of Agility**, **sprints** evolved from 4
+weeks to **2 days**. **Asynchronous communication**.
+
+**Outcomes 🌠**:
+
+-   best **team experience**, best communication (100 teams
+    messages/month), **high performance** team managing 381 work items
+    over 12 sprints. Huge **team learning** 🏫, all members felt then
+    prepared for a scrum master role.
+-   **2,348 attendees** and viewers to the event, 245 Q&As - **eNPS:
+    +90%**, 90% considered it generated a **business value**.
+-   **1,519 subscribed** followers on our social network group, about
+    100 views per session.
+
+------------------------------------------------------------------------
+
+### *Agile/DevOps Enablement team (Scrum Master/RTE in 2019-2020)*
+
+**Team 👥**: **15 engineers**. **Purpose ✈️**: Targeting 200,000+
+employees to embrace the **Agile/DevOps transformation**, coaching and
+providing a **central platform**.
+
+**Way of working 👉**: **SAFe** evolved to Scrum and **Kanban**.
+**Agility** also during organizational changes. Some members assigned to
+a critical waterfall project during few months.
+
+**Outcomes 🌠**:
+
+-   Managed the **challenges** of attrition, knowledge transfer/gaps,
+    COVID, quick **changes in the team** with few days of notice,
+    changes on **priorities** and ways of working, risk management.
+-   **No outage** 🙆, met critical deadlines on external projects,
+    **continuous flow** of delivery using Kanban
+-   **Smooth transition** of the management, product manager, team,
+    solid knowledge base.
+
+------------------------------------------------------------------------
+
+### *Global capability Middleware team (Scrum master in 2017-2018)*
+
+**Team 👥**: **9 engineers**. **Purpose ✈️**: Global **optimization of
+all delivery operations** for the **middleware** capability, establish
+**standards and automation** solutions.
+
+**Way of working 👉**: From waterfall, introduced **Kanban**, **design
+sprints**, and then **Scrum**.
+
+**Outcomes 🌠**:
+
+-   **Transparency** 🙆 on the work in progress, made **success
+    visible**. Decisions and **OKRs** based on **data** 💹 extraction and
+    analytics.
+-   Fostered **innovation and learning** 🏫, **new practices and tools**
+    like some of the DevOps patterns.
+-   Continuous **flow**, **improved communication** (people in all
+    timezones), collaboration and teamwork.
+
+Recent performance
+------------------
 
 ![](Benoit-Bourdin-resume_files/figure-markdown_github/PerformanceRatings-1.png)
 
@@ -110,43 +241,62 @@ Experience
 
 ### Key Roles Performed
 
--   Agile/Lean/DevOps transformation lead and coach (4 years)
--   Product owner (2 years)
--   Scrum master (2 years)
--   Supervisor/team leader (2 years)
--   Global Middleware SME (2 years)
--   Middleware/automation SME (10 years)
+-   Agile/Lean/DevOps Transformation Lead and enterprise Coach (4 years)
+-   Product Owner (2 years), Scrum Master (2 years), Supervisor/team
+    leader (2 years)
+-   Global Middleware SME (2 years), Middleware/automation SME (10
+    years)
 -   System administrator (5 years), Software Developer (2 years),
     Network administrator (2 years)
-
-------------------------------------------------------------------------
 
 Skills
 ------
 
-<img src="Benoit-Bourdin-resume_files/figure-markdown_github/Skills-1.png" width="140%" />
+<img src="Benoit-Bourdin-resume_files/figure-markdown_github/Skills-1.png" width="80%" />
 
 ### Top Skills (Technical/Nontechnical skills)
 
--   Agile culture, methods and tools (4 years)
--   DevOps culture, practices and tools (4 years)
--   Lean method, Value Stream Management (2 years)
--   Product management, engineering, engineering and development (2
-    years)
+-   Agile and DevOps culture, methods and tools (4 years), Lean and
+    Value Stream Management (2 years)
+-   Product management, leadership of engineering and service (2 years)
 -   Middleware: web servers, application servers (11 years)
--   ITSM practice (10 years)
--   Unix/Linux (10+ years), Software development (Java, C, Shell… - 2
-    years), Networking (2 years)
-
-------------------------------------------------------------------------
+-   ITSM practice (10 years), Unix/Linux (10+ years), Software
+    development (Java, C, Shell… - 2 years), Networking (2 years)
 
 Experience detailed
 -------------------
 
 ### DXC Technology
 
+-   *[DXC
+    DevCloud](https://github.dxc.com/pages/Platform-DXC/devcloud-docs/)*
+    (from 2021) - **Product Owner of the Agile/DevOps central platform**
+    -   Product owner of the Agile/DevOps central platform, to 28,000
+        (active) users. Consisted of tools (hosted on AWS) for agile
+        (Jira), source code (GitHub), CI/CD (Jenkins), artifacts
+        (Artifactory), documentation management (Confluence)
+    -   Managing a team of 15 DevOps engineers plus a bot and 38 CI/CD
+        pipelines we develop and maintain. Built a team of 3 proxy
+        product owners and 2 scrum masters.
+    -   Outcomes and value-driven, created and managing a backlog of 72
+        epics containing features, defects, risks and technical debt.
+        Balancing priorities, distribution and knowledge gaps.
+        Continuous roadmapping, management of risks and technical debt
+        (300 not identified earlier) thanks to an impact/probability
+        matrix. Duplicated the development delivered and service level
+        of the team against the original sprint commitment.
+    -   Created automated dashboards to measure/review the customer
+        experience (UX/DX) and the flows/increments of
+        development/operations (flow metrics) after every sprint of 2
+        weeks (using Power BI, R, Grafana, AWS and Confluence).
+    -   Definition of the vision and strategy, innovation using a
+        Freemium model to regulate the internal cost and demand. Leading
+        the internal marketing together with the team, using our
+        enterprise communication tools and enterprise communities.
+    -   Leveraging our existing communities of practices to empathize
+        with our customers and the business context.
 -   *Large manufacturing customer* (from 2020) - **Agile and DevOps
-    transformation lead**
+    Transformation Lead**
     -   Leading the DevOps/Lean/Agile enablement team (team of coaches)
         for this account. Weekly consulting on agility, scaling agile
         and team topologies, Kanban for flow management, training, agile
@@ -158,39 +308,15 @@ Experience detailed
     -   Identification of the transformation expected outcomes in
         partnership with the customer, and implementation of the
         measurements.
--   *[DXC
-    DevCloud](https://github.dxc.com/pages/Platform-DXC/devcloud-docs/)*
-    (from 2021) - **Product owner of the Agile/DevOps central platform**
-    -   Product owner of the Agile/DevOps central platform, to 28,000
-        (active) users. Consisted of tools (hosted on AWS) for agile
-        (Jira), source code (GitHub), CI/CD (Jenkins), artifacts
-        (Artifactory), documentation management (Confluence)
-    -   Managing a team of 3 proxy product owners, 15 DevOps engineers
-        plus a bot and 38 CI/CD pipelines we develop and maintain.
-    -   Outcomes and value-driven, created and managing a backlog of
-        features, defects, risks and technical debt. Balancing
-        priorities, distribution and knowledge gaps. Continuous
-        roadmapping, management of risks and technical debt thanks to an
-        impact/probability matrix. Measuring/reviewing the customer
-        experience (UX/DX) and the flows/increments of
-        development/operations (flow metrics) on an automated dashboard
-        after every sprint of 2 weeks (using Power BI, R, Grafana, AWS
-        and Confluence).
-    -   Definition of the vision and strategy, innovation using a
-        Freemium model to regulate the internal cost and demand. Leading
-        the internal marketing together with the team, using our
-        enterprise communication tools and enterprise communities.
-    -   Leveraging our existing communities of practices to empathize
-        with our customers and the business context.
--   *Entertainment industry customer* (from 2020) - **Scaled Agile coach
-    and agile platform lead**
+-   *Entertainment industry customer* (from 2020) - **Scaled Agile Coach
+    and Agile Platform Lead**
     -   Coaching the customer for improved workflows, SAFe
         implementation (with Jira BigPicture/Advanced roadmaps) and
         employee experience (with Jira service desk). Leading the agile
         platform admin team (Jira) on daily support and the community of
         practice. Advising on the process/tooling strategy and
         licensing.
--   *DXC community (from 2017)* - **agile/DevOps coach and leader of
+-   *DXC community (from 2017)* - **agile/DevOps Coach and leader of
     communities of practice**
     -   Pre-sales of coaching services, delivery of coaching services
         (also called advisory or enablement services). Value Stream
@@ -217,9 +343,9 @@ Experience detailed
         Scrum (ex: sprints of 2 days), Azure DevOps. Driving the staff
         to be an high performance agile team using innovation, Scrum
         (ex: sprints of 2 days), Azure DevOps.
--   *[Enterprise DevOps/Agile
+-   *[Enterprise Agile/DevOps
     enablement](https://github.dxc.com/pages/bionix/storefront/products/DevOps/)
-    team* (2019-2020) - **DevOps/Scaled Agile coach**
+    team* (2019-2020) - **DevOps/Scaled Agile Coach**
     -   Coaching at scale, coaching coaches, targeting 200,000+
         employees to embrace the DevSecOps and Scaled Agile
         transformation to maximize the value stream.
@@ -249,8 +375,8 @@ Experience detailed
         continuous flow of delivery using Kanban, supported the product
         manager/owners and management on the changes.
 -   *OE&E (Operations Engineering and Excellence)* (2018-2019) -
-    **Platform DXC middleware product owner, Agile/DevOps coach**
-    -   Product owner of the Platform DXC/CVA middleware content
+    **Platform DXC middleware Product Owner, Agile/DevOps Coach**
+    -   Product Owner of the Platform DXC/CVA middleware content
         (strategic [end-to-end
         monitoring](https://github.dxc.com/Platform-DXC/architecture/blob/master/Cross-Pillar-Processes-and-Flows/Discovery-to-RBA.md)
         product - only [the middleware
@@ -362,9 +488,9 @@ Prior to the merge of CSC to DXC Technology:
     Bash and Perl programming, network security.
 
 -   *Axians Neurocom (Le Pecq, France), Vinci Energies* (2005) -
-    **Linux/Windows engineer** Monitoring systems (Nagios), wireless
-    (Cisco WLC) and SLES/OES servers installation and administration,
-    user support.
+    **Security engineer** Security and intrusive tests. Vulnerability
+    lookup, exploit demos, source code audit, Perl programming for
+    Nessus.
 
 -   *Several companies in Paris, France* (2002-2004) - **Several roles**
     Technical trainer, C++/network programming, C programming for
