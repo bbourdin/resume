@@ -30,7 +30,7 @@ Profile
 <thead>
 <tr class="header">
 <th><strong><a href="https://github.com/bbourdin">GitHub profile</a></strong></th>
-<th><div class="line-block">💬 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
+<th><div class="line-block">🗯 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
 <strong><a href="https://zcal.co/i/CewT_0LV">Schedule a call</a> ☎️</strong></th>
 </tr>
 </thead>
@@ -86,7 +86,7 @@ Portfolio of managed products
 **Users 👨**: **28,000** (active) users, who deliver software using
 Agile/DevOps practices in a central platform.
 
-**Business value 💸**: More IP, agility, speed and quality of the IT
+**Business value 💷**: More IP, agility, speed and quality of the IT
 services to **900+ customers**.
 
 **Technology 🚀**: AWS, Kubernetes, Terraform, CloudFormation, Ansible,
@@ -97,7 +97,7 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 🤖 for 70% of the requests.
 
 -   **Measuring 💹** in every sprint review the development/service and
-    improvement. Made **transparent** 🆗 300 **risks and debts** in the
+    improvement. Made **transparent** 👌 300 **risks and debts** in the
     backlog, and **managed** it with an impact/probability matrix.
 -   Supported the team on 50 knowledge risks, making a **huge effective
     learning** 🏫 to the team.
@@ -114,16 +114,16 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 **Users 👨**: **3.3M users** managing the IT estate of **450+
 customers**. - **Team 👥**: **5 engineers**.
 
-**Business value 💳**: Discovery/monitoring of **hundreds of** middleware
-**instances** in ***few hours***. **50-75% automated resolution** of
-incidents.
+**Business value 💶**: **AIOps**, discovery/monitoring of **hundreds of**
+middleware **instances** in ***few hours***. **50-75% automated
+resolution** of incidents, designed for **NoOps**.
 
 **Technology 🚀**: ServiceNow (CMDB, Flow, Incident), Microfocus UD,
 Nagios, API, JSON, Python.
 
 -   **Initial technical design**, roadmap, resource **hiring**.
     Development to support the **5 most common middleware products**,
-    automated discovery, monitoring the top \#10 metrics and automated
+    automated discovery, monitoring the top \#20 metrics and automated
     resolution of the top \#10 incidents.
 -   Improved the **coordination** for the end-to-end integration
     including external vendors, **from *months* to *weeks***. Improved
@@ -170,7 +170,7 @@ a critical waterfall project during few months.
 -   Managed the **challenges** of attrition, knowledge transfer/gaps,
     COVID, quick **changes in the team** with few days of notice,
     changes on **priorities** and ways of working, risk management.
--   **No outage** 🙆, met critical deadlines on external projects,
+-   **No outage** 🙆‍♀️, met critical deadlines on external projects,
     **continuous flow** of delivery using Kanban
 -   **Smooth transition** of the management, product manager, team,
     solid knowledge base.
@@ -188,7 +188,7 @@ sprints**, and then **Scrum**.
 
 **Outcomes 🌠**:
 
--   **Transparency** 🙆 on the work in progress, made **success
+-   **Transparency** 🆗 on the work in progress, made **success
     visible**. Decisions and **OKRs** based on **data** 💹 extraction and
     analytics.
 -   Fostered **innovation and learning** 🏫, **new practices and tools**
@@ -375,16 +375,18 @@ Experience detailed
         continuous flow of delivery using Kanban, supported the product
         manager/owners and management on the changes.
 -   *OE&E (Operations Engineering and Excellence)* (2018-2019) -
-    **Platform DXC middleware Product Owner, Agile/DevOps Coach**
+    **Platform DXC/Platform-X middleware Product Owner, Agile/DevOps
+    Coach**
     -   Product Owner of the Platform DXC/CVA middleware content
-        (strategic [end-to-end
-        monitoring](https://github.dxc.com/Platform-DXC/architecture/blob/master/Cross-Pillar-Processes-and-Flows/Discovery-to-RBA.md)
-        product - only [the middleware
-        piece](https://github.dxc.com/Platform-DXC/monitoring-catalog#middleware)),
-        team leader/supervisor of the middleware team. Optimizing the
-        ROI by setting priorities and optimizing resources. Roadmapping,
-        risk and dependencies management. Team building, facilitating
-        the communication and onboarding new resources.
+        ([end-to-end
+        discovery/monitoring/auto-healing](https://github.dxc.com/Platform-DXC/architecture/blob/master/Cross-Pillar-Processes-and-Flows/Discovery-to-RBA.md)
+        of [middleware
+        instances](https://github.dxc.com/Platform-DXC/monitoring-catalog#middleware)
+        for an AIOps/NoOps platform), team leader/supervisor of the
+        middleware team. Optimizing the ROI by setting priorities and
+        optimizing resources. Roadmapping, risk and dependencies
+        management. Team building, facilitating the communication and
+        onboarding new resources.
     -   Automation and Middleware chief architect, working on the end to
         end DevOps automation chain integrated in the next digital
         transformation platform of our global company (Platform
