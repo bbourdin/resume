@@ -34,6 +34,8 @@ Kata
 Scrum
 GitOps
 DataOps
+OKRs
+eNPS
 
 # Tools names
 Powerpoint
@@ -71,6 +73,8 @@ yamllint
 markdownlint
 Grafana
 Node.JS
+Kubernetes
+CloudFormation
 
 # Companies and products
 Axians
@@ -81,6 +85,8 @@ Sistemi
 Novell
 Guidewire
 Bionix
+Microfocus
+ServiceNow
 
 # File names and technical stuff
 Jenkinsfile
@@ -109,3 +115,9 @@ V8.5
 12c
 100-word
 roadmapping
+600px
+300px
+3.3M
+Arvan
+analytics
+24-hours
