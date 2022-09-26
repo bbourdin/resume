@@ -1,4 +1,6 @@
 ---
+urlcolor: blue
+linkcolor: blue
 output:
   md_document:
     variant: markdown_github
@@ -26,11 +28,20 @@ _This resume is leveraging DevOps `r emo::ji("rocket")` (automatically built fro
 
 [Like it? I would `r emo::ji("red_heart")` your feedback!](https://forms.gle/uicsQT38UznBk6rcA). Be notified `r emo::ji("notification")` on updates: [watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository) [the GitHub repository]({{this_repo.url}}).
 
----
-
 ## Profile
 
-[![](Benoit-Bourdin-slide.png)](Benoit-Bourdin-slide.html)
+<!-- for all-latex based output formats (pdf, md) -->
+```{=latex}
+\begin{figure}[hbtp]
+\vspace*{-0.3in}\hspace*{-0.5in}\includegraphics[width=1.2\textwidth]{Benoit-Bourdin-slide.png}
+\end{figure}
+```
+<!-- for other output formats -->
+```{r slide, echo=FALSE, error=TRUE, warning=FALSE, message=TRUE, out.width="130%"}
+if (! knitr::is_latex_output()){
+  knitr::include_graphics("Benoit-Bourdin-slide.png")
+}
+```
 
 +--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
 | **{{github_profile}}**                                 | `r emo::ji("bubble")` **{{async_contact_info}}[LinkedIn](https://www.linkedin.com/in/benoit-bourdin-b9b2642/) / {{email_addr}}** |
@@ -47,7 +58,7 @@ _This resume is leveraging DevOps `r emo::ji("rocket")` (automatically built fro
 
 Benoit is the **Product Owner of the DXC central Agile/DevOps platform** to 28,000 active users, and is **leading** the **Agile/DevOps transformation** of several DXC teams, organizations and customers, by **coaching** on the **Agile/Lean/DevOps** culture, practices and the tools. He is also contributing in several communities of practice and for pre-sales.
 
-Previously, Benoit has also worked as middleware & automation SME in DXC, leading projects for large customers, global standards for all customers, architectural roadmap of an automation platform and led all the automation initiatives. Before DXC, Benoit worked as system administrator, after several experiences in software development and network administration.
+Previously, Benoit has also worked as middleware & automation SME in DXC, leading projects for large customers, global standards for all customers, and development of an AIOps/NoOps platform. Before DXC, Benoit worked as system administrator, software developer and network administrator.
 
 **More details below**:
 
