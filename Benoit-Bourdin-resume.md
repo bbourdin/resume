@@ -15,12 +15,13 @@ updates:
 [watch](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository)
 [the GitHub repository](https://github.com/bbourdin/resume/).
 
-------------------------------------------------------------------------
-
 Profile
 -------
 
-[![](Benoit-Bourdin-slide.png)](Benoit-Bourdin-slide.html)
+<!-- for all-latex based output formats (pdf, md) -->
+<!-- for other output formats -->
+
+<img src="Benoit-Bourdin-slide.png" width="130%" />
 
 <table>
 <colgroup>
@@ -61,10 +62,9 @@ for pre-sales.
 
 Previously, Benoit has also worked as middleware & automation SME in
 DXC, leading projects for large customers, global standards for all
-customers, architectural roadmap of an automation platform and led all
-the automation initiatives. Before DXC, Benoit worked as system
-administrator, after several experiences in software development and
-network administration.
+customers, and development of an AIOps/NoOps platform. Before DXC,
+Benoit worked as system administrator, software developer and network
+administrator.
 
 **More details below**:
 
@@ -86,7 +86,7 @@ Portfolio of managed products
 **Users 👨**: **28,000** (active) users, who deliver software using
 Agile/DevOps practices in a central platform.
 
-**Business value 💵**: More IP, agility, speed and quality of the IT
+**Business value 🤑**: More IP, agility, speed and quality of the IT
 services to **900+ customers**.
 
 **Technology 🚀**: AWS, Kubernetes, Terraform, CloudFormation, Ansible,
@@ -97,8 +97,8 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 🤖 for 70% of the requests.
 
 -   **Measuring 💹** in every sprint review the development/service and
-    improvement. Made **transparent** 🙆‍♀️ 300 **risks and debts** in
-    the backlog, and **managed** it with an impact/probability matrix.
+    improvement. Made **transparent** 🆗 300 **risks and debts** in the
+    backlog, and **managed** it with an impact/probability matrix.
 -   Supported the team on 50 knowledge risks, making a **huge effective
     learning** 🏫 to the team.
 -   **Improved** 📈 **NPS to +95%**, availability from 97% to 99.6%, MTTR
@@ -114,7 +114,7 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 **Users 👨**: **3.3M users** managing the IT estate of **450+
 customers**. - **Team 👥**: **5 engineers**.
 
-**Business value 💹**: **AIOps**, discovery/monitoring of **hundreds of**
+**Business value 💱**: **AIOps**, discovery/monitoring of **hundreds of**
 middleware **instances** in ***few hours***. **50-75% automated
 resolution** of incidents, designed for **NoOps**.
 
@@ -170,7 +170,7 @@ a critical waterfall project during few months.
 -   Managed the **challenges** of attrition, knowledge transfer/gaps,
     COVID, quick **changes in the team** with few days of notice,
     changes on **priorities** and ways of working, risk management.
--   **No outage** 🙆‍♀️, met critical deadlines on external projects,
+-   **No outage** 🙆, met critical deadlines on external projects,
     **continuous flow** of delivery using Kanban
 -   **Smooth transition** of the management, product manager, team,
     solid knowledge base.
@@ -188,7 +188,7 @@ sprints**, and then **Scrum**.
 
 **Outcomes 🌠**:
 
--   **Transparency** 🙆 on the work in progress, made **success
+-   **Transparency** 🆗 on the work in progress, made **success
     visible**. Decisions and **OKRs** based on **data** 💹 extraction and
     analytics.
 -   Fostered **innovation and learning** 🏫, **new practices and tools**
