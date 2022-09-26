@@ -86,7 +86,7 @@ Portfolio of managed products
 **Users 👨**: **28,000** (active) users, who deliver software using
 Agile/DevOps practices in a central platform.
 
-**Business value 💸**: More IP, agility, speed and quality of the IT
+**Business value 🧧**: More IP, agility, speed and quality of the IT
 services to **900+ customers**.
 
 **Technology 🚀**: AWS, Kubernetes, Terraform, CloudFormation, Ansible,
@@ -114,7 +114,7 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 **Users 👨**: **3.3M users** managing the IT estate of **450+
 customers**. - **Team 👥**: **5 engineers**.
 
-**Business value 💰**: **AIOps**, discovery/monitoring of **hundreds of**
+**Business value 💱**: **AIOps**, discovery/monitoring of **hundreds of**
 middleware **instances** in ***few hours***. **50-75% automated
 resolution** of incidents, designed for **NoOps**.
 
@@ -188,7 +188,7 @@ sprints**, and then **Scrum**.
 
 **Outcomes 🌠**:
 
--   **Transparency** 👌 on the work in progress, made **success
+-   **Transparency** 🙆‍♂️ on the work in progress, made **success
     visible**. Decisions and **OKRs** based on **data** 💹 extraction and
     analytics.
 -   Fostered **innovation and learning** 🏫, **new practices and tools**
