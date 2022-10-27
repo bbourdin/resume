@@ -31,7 +31,7 @@ Profile
 <thead>
 <tr class="header">
 <th><strong><a href="https://github.com/bbourdin">GitHub profile</a></strong></th>
-<th><div class="line-block">💭 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
+<th><div class="line-block">💬 <strong><a href="https://www.linkedin.com/in/benoit-bourdin-b9b2642/">LinkedIn</a> / <a href="mailto:benoit.bourdin@gmail.com" class="email">benoit.bourdin@gmail.com</a></strong></div>
 <strong><a href="https://zcal.co/i/CewT_0LV">Schedule a call</a> ☎️</strong></th>
 </tr>
 </thead>
@@ -98,8 +98,8 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 
 -   **Measuring 💹** data/trend of NPS, service, user base, feature
     usage, costs in every sprint review.
--   Introduced **monetization 💳** by a freemium service-based model.
-    Made **transparent** 👌 300 **risks and debts** and 100 user
+-   Introduced **monetization 💰** by a freemium service-based model.
+    Made **transparent** 🆗 300 **risks and debts** and 100 user
     requirements. **Prioritization** using impact/probability and
     impact/effort. 100 knowledge risks resolved, by a new **learning
     organization** 🏫.
@@ -116,7 +116,7 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 **Users 👨**: **3.3M users** managing the IT estate of **450+
 customers**. - **Team 👥**: **5 engineers**.
 
-**Business value 💹**: **AIOps** B2B SaaS, automated discovery/monitoring
+**Business value 💲**: **AIOps** B2B SaaS, automated discovery/monitoring
 of **hundreds of** middleware **instances** in ***few hours***. **50-75%
 automated resolution** of incidents, designed for **NoOps**.
 
@@ -174,7 +174,7 @@ a critical waterfall project during few months.
 -   Managed the **challenges** of attrition, knowledge transfer/gaps,
     COVID, quick **changes in the team** with few days of notice,
     changes on **priorities** and ways of working, risk management.
--   **No outage** 🆗, met critical deadlines on external projects,
+-   **No outage** 🙆‍♀️, met critical deadlines on external projects,
     **continuous flow** of delivery using Kanban
 -   **Smooth transition** of the management, product manager, team,
     solid knowledge base.
@@ -192,7 +192,7 @@ sprints**, and then **Scrum**.
 
 **Outcomes 🌠**:
 
--   **Transparency** 👌 on the work in progress, made **success
+-   **Transparency** 🙆‍♂️ on the work in progress, made **success
     visible**. Decisions and **OKRs** based on **data** 💹 extraction and
     analytics.
 -   Fostered **innovation and learning** 🏫, **new practices and tools**
@@ -205,13 +205,18 @@ Recent performance
 
 ![](Benoit-Bourdin-resume_files/figure-markdown_github/PerformanceRatings-1.png)
 
-**Quotes** from our customers or account executive during 2022:
+**Quotes** from our **customers or account executives** during 2022:
 
-> “*Sharing thanks and appreciation for Benoit’s good work for \[this
-> customer\]. He is contributing and supporting in a great way for my
-> team.*”
+> “*My direct \[customer\] client, shared with me last week how pleased
+> she was with the process (end to end view of the way of working) and
+> the ideas to improve. She stated that she would like to see more of
+> these sorts of activities within our delivery. This is to Benoit’s
+> credit – he guided the team (which included both DXC and \[customer\]
+> participants), presented the process and findings at the end and
+> engaged the team in actively prioritizing the improvement backlog. I
+> greatly appreciate his support and contributions.*”
 >
-> > Regional Account Delivery Lead - Manufacturing
+> > Regional Account Delivery Lead (account) - Manufacturing
 
 > “*I would like to also thanks Benoit for all his help completing the
 > VSM for our team. His deep knowledge and understanding help us achieve
@@ -220,21 +225,21 @@ Recent performance
 > job you are doing when coaching us that benefits DXC and \[the
 > customer\].*”
 >
-> > Application Development lead - Manufacturing
+> > Application Development lead (account) - Manufacturing
 
 > “*Benoit is very responsive and helpful - anytime we have questions or
 > need help looking into solutions, he provides detailed responses and
 > includes multiple options/choices for solutions that make it easier
 > for us to make informed decisions.*”
 >
-> > Director of IT applications - Media & Entertainment
+> > Director of IT applications (customer) - Media & Entertainment
 
 > “*Benoit is very knowledgeable within his domain, he is able to answer
 > all the questions we have. If he doesn’t have the answer, he will
 > diligently research them and respond without us having to remind
 > him.*”
 >
-> > Project manager - Media & Entertainment
+> > Project manager (customer) - Media & Entertainment
 
 ------------------------------------------------------------------------
 
