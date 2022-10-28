@@ -12,3 +12,5 @@ exclude_rule 'MD032'
 exclude_rule 'MD023'
 # when having comments in the marp header
 exclude_rule 'MD022'
+# issue with github action only, not having the same number of spaces configured
+rule 'MD007', :indent => 2
