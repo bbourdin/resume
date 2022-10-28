@@ -86,7 +86,7 @@ Portfolio of managed products
 **Users 👨**: **28,000** (active) users, delivering software using
 Agile/DevOps practices.
 
-**Business value 💳**: Individual Property, agility, Developer
+**Business value 💰**: Individual Property, agility, Developer
 eXperience, speed, quality for **900+ customers**.
 
 **Technology 🚀**: AWS, Kubernetes, Terraform, CloudFormation, Ansible,
@@ -98,7 +98,7 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 
 -   **Measuring 💹** data/trend of NPS, service, user base, feature
     usage, costs in every sprint review.
--   Introduced **monetization 💸** by a freemium service-based model.
+-   Introduced **monetization 💱** by a freemium service-based model.
     Made **transparent** 🆗 300 **risks and debts** and 100 user
     requirements. **Prioritization** using impact/probability and
     impact/effort. 100 knowledge risks resolved, by a new **learning
@@ -116,7 +116,7 @@ Helm… to deploy **Jira, GitHub, Jenkins, Artifactory, Confluence** using
 **Users 👨**: **3.3M users** managing the IT estate of **450+
 customers**. - **Team 👥**: **5 engineers**.
 
-**Business value 💳**: **AIOps** B2B SaaS, automated discovery/monitoring
+**Business value 💴**: **AIOps** B2B SaaS, automated discovery/monitoring
 of **hundreds of** middleware **instances** in ***few hours***. **50-75%
 automated resolution** of incidents, designed for **NoOps**.
 
@@ -174,7 +174,7 @@ a critical waterfall project during few months.
 -   Managed the **challenges** of attrition, knowledge transfer/gaps,
     COVID, quick **changes in the team** with few days of notice,
     changes on **priorities** and ways of working, risk management.
--   **No outage** 🆗, met critical deadlines on external projects,
+-   **No outage** 🙆‍♂️, met critical deadlines on external projects,
     **continuous flow** of delivery using Kanban
 -   **Smooth transition** of the management, product manager, team,
     solid knowledge base.
@@ -192,7 +192,7 @@ sprints**, and then **Scrum**.
 
 **Outcomes 🌠**:
 
--   **Transparency** 🙆‍♀️ on the work in progress, made **success
+-   **Transparency** 🙆‍♂️ on the work in progress, made **success
     visible**. Decisions and **OKRs** based on **data** 💹 extraction and
     analytics.
 -   Fostered **innovation and learning** 🏫, **new practices and tools**
