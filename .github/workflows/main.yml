@@ -49,7 +49,7 @@ jobs:
           data_file: resume-data.yml
           data_format: yaml
       - name: upload generated markdown as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.3.3
         with:
           name: Benoit-Bourdin-resume-rmarkdown
           path: |
@@ -97,7 +97,7 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-@v2
         with:
           name: Benoit-Bourdin-resume-rmarkdown
       - name: Run mdspell
@@ -112,7 +112,7 @@ jobs:
       image: marpteam/marp-cli
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-@v2
         with:
           name: Benoit-Bourdin-resume-rmarkdown
       - name: Run marp
@@ -127,8 +127,8 @@ jobs:
           mkdir -p output/
           mv Benoit-Bourdin-slide.html Benoit-Bourdin-slide.pptx \
             Benoit-Bourdin-slide.pdf Benoit-Bourdin-slide.png output/
-      - name: upload generated slides as artifact
-        uses: actions/upload-artifact@v2
+      - name: upload generated slides as 
+        uses: actions/upload-artifact@v2.3.3
         with:
           name: Benoit-Bourdin-resume-slide
           path: output/**
@@ -179,7 +179,7 @@ jobs:
             Benoit-Bourdin-resume_files \
             output-slides/* Benoit-Bourdin-slide.png output/
       - name: upload generated slides as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.3.3
         with:
           name: Benoit-Bourdin-resume
           path: output/**
