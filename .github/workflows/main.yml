@@ -97,7 +97,7 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/download-@v2
+      - uses: actions/download-artifact@v2
         with:
           name: Benoit-Bourdin-resume-rmarkdown
       - name: Run mdspell
@@ -112,7 +112,7 @@ jobs:
       image: marpteam/marp-cli
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/download-@v2
+      - uses: actions/download-artifact@v2
         with:
           name: Benoit-Bourdin-resume-rmarkdown
       - name: Run marp
